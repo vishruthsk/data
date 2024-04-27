@@ -1,0 +1,40 @@
+=============== Apr 27, 2024 (IST) ===============
+14:52:02.433031 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:52:02.444500 db@open opening
+14:52:02.444783 version@stat F·[] S·0B[] Sc·[]
+14:52:02.448673 db@janitor F·2 G·0
+14:52:02.448689 db@open done T·4.175542ms
+15:31:35.272469 memdb@flush N·793 S·796KiB
+15:31:35.330339 memdb@flush created L0@3 N·793 S·262KiB "abc..y:1,v10":"val..:99,v395"
+15:31:35.330612 version@stat F·[1] S·262KiB[262KiB] Sc·[0.25]
+15:31:35.337967 memdb@flush committed F·1 T·64.632958ms
+15:31:35.346888 journal@remove removed @1
+=============== Apr 27, 2024 (IST) ===============
+15:55:31.233112 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:55:31.233748 version@stat F·[1] S·262KiB[262KiB] Sc·[0.25]
+15:55:31.233782 db@open opening
+15:55:31.233872 journal@recovery F·1
+15:55:31.234064 journal@recovery recovering @2
+15:55:31.239820 memdb@flush created L0@4 N·8 S·10KiB "abc..197,v794":"val..200,v799"
+15:55:31.240398 version@stat F·[2] S·273KiB[273KiB] Sc·[0.50]
+15:55:31.261117 db@janitor F·4 G·0
+15:55:31.261163 db@open done T·27.368334ms
+=============== Apr 27, 2024 (IST) ===============
+15:58:06.359015 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:58:06.361755 version@stat F·[2] S·273KiB[273KiB] Sc·[0.50]
+15:58:06.365057 db@open opening
+15:58:06.365110 journal@recovery F·1
+15:58:06.365162 journal@recovery recovering @5
+15:58:06.365378 version@stat F·[2] S·273KiB[273KiB] Sc·[0.50]
+15:58:06.390317 db@janitor F·4 G·0
+15:58:06.390336 db@open done T·25.270209ms
+=============== Apr 27, 2024 (IST) ===============
+16:20:39.242431 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:20:39.242930 version@stat F·[2] S·273KiB[273KiB] Sc·[0.50]
+16:20:39.242947 db@open opening
+16:20:39.242987 journal@recovery F·1
+16:20:39.243217 journal@recovery recovering @7
+16:20:39.247539 memdb@flush created L0@9 N·4 S·4KiB "abc..199,v803":"val..201,v804"
+16:20:39.247637 version@stat F·[3] S·278KiB[278KiB] Sc·[0.75]
+16:20:39.266226 db@janitor F·5 G·0
+16:20:39.266240 db@open done T·23.287084ms

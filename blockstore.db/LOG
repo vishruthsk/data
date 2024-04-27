@@ -1,0 +1,40 @@
+=============== Apr 27, 2024 (IST) ===============
+14:52:02.416670 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:52:02.429582 db@open opening
+14:52:02.430006 version@stat F·[] S·0B[] Sc·[]
+14:52:02.432733 db@janitor F·2 G·0
+14:52:02.432757 db@open done T·3.157208ms
+14:52:08.864939 memdb@flush N·1166 S·818KiB
+14:52:08.878278 memdb@flush created L0@3 N·1166 S·487KiB ",v1162":"blo..ore,v6"
+14:52:08.878318 version@stat F·[1] S·487KiB[487KiB] Sc·[0.25]
+14:52:08.889114 memdb@flush committed F·1 T·24.015208ms
+14:52:08.890284 journal@remove removed @1
+=============== Apr 27, 2024 (IST) ===============
+15:55:31.196787 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:55:31.197908 version@stat F·[1] S·487KiB[487KiB] Sc·[0.25]
+15:55:31.197951 db@open opening
+15:55:31.198038 journal@recovery F·1
+15:55:31.198158 journal@recovery recovering @2
+15:55:31.207123 memdb@flush created L0@4 N·220 S·205KiB ",v1386":"blo..ore,v1168"
+15:55:31.210397 version@stat F·[2] S·693KiB[693KiB] Sc·[0.50]
+15:55:31.232096 db@janitor F·4 G·0
+15:55:31.232141 db@open done T·34.175ms
+=============== Apr 27, 2024 (IST) ===============
+15:58:06.332619 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:58:06.333350 version@stat F·[2] S·693KiB[693KiB] Sc·[0.50]
+15:58:06.333368 db@open opening
+15:58:06.333421 journal@recovery F·1
+15:58:06.333472 journal@recovery recovering @5
+15:58:06.333603 version@stat F·[2] S·693KiB[693KiB] Sc·[0.50]
+15:58:06.358486 db@janitor F·4 G·0
+15:58:06.358507 db@open done T·25.130666ms
+=============== Apr 27, 2024 (IST) ===============
+16:20:39.199736 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:20:39.200575 version@stat F·[2] S·693KiB[693KiB] Sc·[0.50]
+16:20:39.200595 db@open opening
+16:20:39.200644 journal@recovery F·1
+16:20:39.200705 journal@recovery recovering @7
+16:20:39.205547 memdb@flush created L0@9 N·7 S·4KiB ",v1394":"blo..ore,v1393"
+16:20:39.205852 version@stat F·[3] S·697KiB[697KiB] Sc·[0.75]
+16:20:39.241796 db@janitor F·5 G·0
+16:20:39.241821 db@open done T·41.218542ms
