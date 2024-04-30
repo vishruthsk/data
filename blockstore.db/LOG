@@ -101,3 +101,37 @@
 12:24:40.802656 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
 12:24:40.803893 table@compaction committed F-1 S+302B Ke·0 D·42 T·28.083725ms
 12:24:40.804277 table@remove removed @22
+=============== Apr 29, 2024 (IST) ===============
+13:08:50.723400 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:08:50.724072 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+13:08:50.724139 db@open opening
+13:08:50.724251 journal@recovery F·1
+13:08:50.724414 journal@recovery recovering @24
+13:08:50.729034 memdb@flush created L0@27 N·21 S·12KiB ",v2441":"blo..ore,v2426"
+13:08:50.729273 version@stat F·[1 1] S·1MiB[12KiB 1MiB] Sc·[0.25 0.01]
+13:08:50.745753 db@janitor F·5 G·1
+13:08:50.745773 db@janitor removing table-23
+13:08:50.745882 db@open done T·21.718375ms
+=============== Apr 30, 2024 (IST) ===============
+11:47:37.975897 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:47:37.976662 version@stat F·[1 1] S·1MiB[12KiB 1MiB] Sc·[0.25 0.01]
+11:47:37.976688 db@open opening
+11:47:37.976750 journal@recovery F·1
+11:47:37.977117 journal@recovery recovering @28
+11:47:37.977592 version@stat F·[1 1] S·1MiB[12KiB 1MiB] Sc·[0.25 0.01]
+11:47:37.995649 db@janitor F·4 G·0
+11:47:37.995684 db@open done T·18.984917ms
+=============== Apr 30, 2024 (IST) ===============
+11:50:29.176033 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:50:29.176748 version@stat F·[1 1] S·1MiB[12KiB 1MiB] Sc·[0.25 0.01]
+11:50:29.176771 db@open opening
+11:50:29.176827 journal@recovery F·1
+11:50:29.176882 journal@recovery recovering @30
+11:50:29.177074 version@stat F·[1 1] S·1MiB[12KiB 1MiB] Sc·[0.25 0.01]
+11:50:29.193354 db@janitor F·4 G·0
+11:50:29.193388 db@open done T·16.60675ms
+11:51:56.902739 memdb@flush N·359 S·817KiB
+11:51:56.923623 memdb@flush created L0@35 N·359 S·645KiB ",v2799":"blo..ore,v2448"
+11:51:56.923820 version@stat F·[2 1] S·1MiB[657KiB 1MiB] Sc·[0.50 0.01]
+11:51:56.928522 memdb@flush committed F·1 T·24.073291ms
+11:51:56.930653 journal@remove removed @32
