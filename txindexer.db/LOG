@@ -214,3 +214,18 @@
 06:29:33.355554 version@stat F·[1 1] S·377KiB[1KiB 375KiB] Sc·[0.25 0.00]
 06:29:33.374631 db@janitor F·4 G·0
 06:29:33.374645 db@open done T·23.988959ms
+=============== May 1, 2024 (IST) ===============
+07:00:10.731726 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:00:10.731910 version@stat F·[1 1] S·377KiB[1KiB 375KiB] Sc·[0.25 0.00]
+07:00:10.731934 db@open opening
+07:00:10.732004 journal@recovery F·1
+07:00:10.732436 journal@recovery recovering @53
+07:00:10.734821 version@stat F·[1 1] S·377KiB[1KiB 375KiB] Sc·[0.25 0.00]
+07:00:10.740252 db@janitor F·4 G·0
+07:00:10.740271 db@open done T·8.329026ms
+07:26:29.306492 table@compaction L0·1 -> L1·1 S·377KiB Q·3828
+07:26:29.322095 table@build created L1@57 N·2228 S·377KiB "\x00ɽ..\xd3\x056,v3383":"\xff\xbc`..)V\x1c,v1998"
+07:26:29.322213 version@stat F·[0 1] S·377KiB[0B 377KiB] Sc·[0.00 0.00]
+07:26:29.323437 table@compaction committed F-1 S-2B Ke·0 D·12 T·16.847448ms
+07:26:29.323546 table@remove removed @52
+07:26:29.323670 table@remove removed @51
