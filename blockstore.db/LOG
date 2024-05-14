@@ -380,3 +380,1488 @@
 12:01:11.756891 table@remove removed @101
 12:01:11.757447 table@remove removed @102
 12:01:11.757664 table@remove removed @103
+=============== May 14, 2024 (IST) ===============
+22:29:47.680964 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:29:47.681456 version@stat F·[0 4] S·7MiB[0B 7MiB] Sc·[0.00 0.08]
+22:29:47.681475 db@open opening
+22:29:47.681526 journal@recovery F·1
+22:29:47.681569 journal@recovery recovering @104
+22:29:47.689234 memdb@flush created L0@110 N·180 S·590KiB ",v5648":"blo..ore,v5472"
+22:29:47.689408 version@stat F·[1 4] S·8MiB[590KiB 7MiB] Sc·[0.25 0.08]
+22:29:47.702330 db@janitor F·7 G·0
+22:29:47.702350 db@open done T·20.867375ms
+22:29:50.351058 memdb@flush N·142 S·817KiB
+22:29:50.371667 memdb@flush created L0@114 N·142 S·664KiB ",v5789":"blo..ore,v5655"
+22:29:50.371714 version@stat F·[2 4] S·8MiB[1MiB 7MiB] Sc·[0.50 0.08]
+22:29:50.378858 memdb@flush committed F·1 T·27.629832ms
+22:29:50.379425 journal@remove removed @111
+22:29:51.247628 memdb@flush N·128 S·818KiB
+22:29:51.268634 memdb@flush created L0@116 N·128 S·650KiB ",v5915":"blo..ore,v5795"
+22:29:51.268677 version@stat F·[3 4] S·9MiB[1MiB 7MiB] Sc·[0.75 0.08]
+22:29:51.272672 memdb@flush committed F·1 T·21.857333ms
+22:29:51.273581 journal@remove removed @113
+22:29:52.095707 memdb@flush N·131 S·815KiB
+22:29:52.107630 memdb@flush created L0@118 N·131 S·645KiB ",v6048":"blo..ore,v5921"
+22:29:52.107670 version@stat F·[4 4] S·10MiB[2MiB 7MiB] Sc·[1.00 0.08]
+22:29:52.115514 memdb@flush committed F·1 T·19.685667ms
+22:29:52.116211 journal@remove removed @115
+22:29:52.116248 table@compaction L0·4 -> L1·4 S·10MiB Q·6055
+22:29:52.143622 table@build created L1@119 N·1495 S·2MiB ",v6048":"C:666,v4679"
+22:29:52.164706 table@build created L1@120 N·552 S·2MiB "C:667,v4686":"H:388,v2717"
+22:29:52.204935 table@build created L1@121 N·1113 S·2MiB "H:389,v2724":"P:614:0,v4307"
+22:29:52.225655 table@build created L1@122 N·235 S·2MiB "P:615:0,v4314":"P:826:0,v5792"
+22:29:52.254615 table@build created L1@123 N·919 S·2MiB "P:827:0,v5799":"blo..ore,v6047"
+22:29:52.254675 version@stat F·[0 5] S·10MiB[0B 10MiB] Sc·[0.00 0.10]
+22:29:52.266693 table@compaction committed F-3 S+514B Ke·0 D·166 T·150.415ms
+22:29:52.267130 table@remove removed @118
+22:29:52.267217 table@remove removed @116
+22:29:52.267320 table@remove removed @114
+22:29:52.267835 table@remove removed @106
+22:29:52.268312 table@remove removed @107
+22:29:52.269036 table@remove removed @108
+22:29:52.269264 table@remove removed @109
+22:29:52.912831 memdb@flush N·126 S·811KiB
+22:29:52.924590 memdb@flush created L0@125 N·126 S·637KiB ",v6174":"blo..ore,v6054"
+22:29:52.924621 version@stat F·[1 5] S·10MiB[637KiB 10MiB] Sc·[0.25 0.10]
+22:29:52.928641 memdb@flush committed F·1 T·15.785958ms
+22:29:52.929122 journal@remove removed @117
+22:29:53.685732 memdb@flush N·120 S·809KiB
+22:29:53.699615 memdb@flush created L0@127 N·120 S·620KiB ",v6293":"blo..ore,v6180"
+22:29:53.699663 version@stat F·[2 5] S·11MiB[1MiB 10MiB] Sc·[0.50 0.10]
+22:29:53.707575 memdb@flush committed F·1 T·21.63325ms
+22:29:53.708002 journal@remove removed @124
+22:29:54.319809 memdb@flush N·98 S·806KiB
+22:29:54.332588 memdb@flush created L0@129 N·98 S·512KiB ",v6391":"blo..ore,v6299"
+22:29:54.332625 version@stat F·[3 5] S·11MiB[1MiB 10MiB] Sc·[0.75 0.10]
+22:29:54.335580 memdb@flush committed F·1 T·15.74ms
+22:29:54.335970 journal@remove removed @126
+22:29:54.963215 memdb@flush N·99 S·800KiB
+22:29:54.981527 memdb@flush created L0@131 N·99 S·535KiB ",v6489":"blo..ore,v6397"
+22:29:54.981563 version@stat F·[4 5] S·12MiB[2MiB 10MiB] Sc·[1.00 0.10]
+22:29:54.989592 memdb@flush committed F·1 T·26.349583ms
+22:29:54.990037 journal@remove removed @128
+22:29:54.990079 table@compaction L0·4 -> L1·5 S·12MiB Q·6496
+22:29:55.016595 table@build created L1@132 N·1558 S·2MiB ",v6489":"C:666,v4679"
+22:29:55.041445 table@build created L1@133 N·227 S·2MiB "C:667,v4686":"C:870,v6108"
+22:29:55.060623 table@build created L1@134 N·1439 S·2MiB "C:871,v6115":"P:500:0,v3509"
+22:29:55.077819 table@build created L1@135 N·285 S·2MiB "P:501:0,v3516":"P:758:0,v5315"
+22:29:55.100639 table@build created L1@136 N·263 S·2MiB "P:759:0,v5322":"SC:159,v1111"
+22:29:55.126653 table@build created L1@137 N·831 S·2MiB "SC:16,v110":"SC:907,v6361"
+22:29:55.139629 table@build created L1@138 N·28 S·222KiB "SC:908,v6368":"blo..ore,v6488"
+22:29:55.140003 version@stat F·[0 7] S·12MiB[0B 12MiB] Sc·[0.00 0.12]
+22:29:55.152592 table@compaction committed F-2 S-1KiB Ke·0 D·126 T·162.494791ms
+22:29:55.152809 table@remove removed @131
+22:29:55.152879 table@remove removed @129
+22:29:55.152938 table@remove removed @127
+22:29:55.153048 table@remove removed @125
+22:29:55.153208 table@remove removed @119
+22:29:55.153350 table@remove removed @120
+22:29:55.153476 table@remove removed @121
+22:29:55.153641 table@remove removed @122
+22:29:55.153798 table@remove removed @123
+22:29:55.717549 memdb@flush N·105 S·814KiB
+22:29:55.728568 memdb@flush created L0@140 N·105 S·576KiB ",v6594":"blo..ore,v6495"
+22:29:55.728606 version@stat F·[1 7] S·12MiB[576KiB 12MiB] Sc·[0.25 0.12]
+22:29:55.732577 memdb@flush committed F·1 T·14.960958ms
+22:29:55.732904 journal@remove removed @130
+22:29:56.346007 memdb@flush N·104 S·813KiB
+22:29:56.359356 memdb@flush created L0@142 N·104 S·563KiB ",v6699":"blo..ore,v6600"
+22:29:56.359391 version@stat F·[2 7] S·13MiB[1MiB 12MiB] Sc·[0.50 0.12]
+22:29:56.363549 memdb@flush committed F·1 T·17.52025ms
+22:29:56.363845 journal@remove removed @139
+22:29:57.031753 memdb@flush N·98 S·817KiB
+22:29:57.045659 memdb@flush created L0@144 N·98 S·545KiB ",v6797":"blo..ore,v6705"
+22:29:57.045700 version@stat F·[3 7] S·13MiB[1MiB 12MiB] Sc·[0.75 0.12]
+22:29:57.052516 memdb@flush committed F·1 T·20.735459ms
+22:29:57.052853 journal@remove removed @141
+22:29:57.735853 memdb@flush N·104 S·804KiB
+22:29:57.744609 memdb@flush created L0@146 N·104 S·574KiB ",v6902":"blo..ore,v6803"
+22:29:57.745018 version@stat F·[4 7] S·14MiB[2MiB 12MiB] Sc·[1.00 0.12]
+22:29:57.752530 memdb@flush committed F·1 T·16.652251ms
+22:29:57.752894 journal@remove removed @143
+22:29:57.752929 table@compaction L0·4 -> L1·7 S·14MiB Q·6909
+22:29:57.766434 table@build created L1@147 N·1616 S·2MiB ",v6902":"C:665,v4672"
+22:29:57.801649 table@build created L1@148 N·226 S·2MiB "C:666,v4679":"C:869,v6101"
+22:29:57.821504 table@build created L1@149 N·1315 S·2MiB "C:87,v613":"P:282:0,v1973"
+22:29:57.841492 table@build created L1@150 N·444 S·2MiB "P:283:0,v1980":"P:682:0,v4783"
+22:29:57.860501 table@build created L1@151 N·210 S·2MiB "P:683:0,v4790":"P:871:0,v6107"
+22:29:57.890593 table@build created L1@152 N·495 S·2MiB "P:872:0,v6114":"SC:429,v3008"
+22:29:57.907584 table@build created L1@153 N·579 S·2MiB "SC:43,v299":"SC:950,v6662"
+22:29:57.918446 table@build created L1@154 N·39 S·435KiB "SC:951,v6669":"blo..ore,v6901"
+22:29:57.918499 version@stat F·[0 8] S·14MiB[0B 14MiB] Sc·[0.00 0.14]
+22:29:57.922509 table@compaction committed F-3 S+1KiB Ke·0 D·118 T·169.569208ms
+22:29:57.922703 table@remove removed @146
+22:29:57.922771 table@remove removed @144
+22:29:57.922835 table@remove removed @142
+22:29:57.922899 table@remove removed @140
+22:29:57.923026 table@remove removed @132
+22:29:57.923143 table@remove removed @133
+22:29:57.923265 table@remove removed @134
+22:29:57.923395 table@remove removed @135
+22:29:57.923520 table@remove removed @136
+22:29:57.923647 table@remove removed @137
+22:29:57.923718 table@remove removed @138
+22:29:58.429037 memdb@flush N·99 S·802KiB
+22:29:58.440553 memdb@flush created L0@156 N·99 S·568KiB ",v7000":"blo..ore,v6908"
+22:29:58.440589 version@stat F·[1 8] S·15MiB[568KiB 14MiB] Sc·[0.25 0.14]
+22:29:58.450468 memdb@flush committed F·1 T·21.410125ms
+22:29:58.450737 journal@remove removed @145
+22:29:59.176436 memdb@flush N·97 S·796KiB
+22:29:59.190550 memdb@flush created L0@158 N·97 S·561KiB ",v7098":"blo..ore,v7006"
+22:29:59.190606 version@stat F·[2 8] S·15MiB[1MiB 14MiB] Sc·[0.50 0.14]
+22:29:59.194477 memdb@flush committed F·1 T·17.805792ms
+22:29:59.194749 journal@remove removed @155
+22:29:59.887824 memdb@flush N·98 S·817KiB
+22:29:59.900400 memdb@flush created L0@160 N·98 S·602KiB ",v7196":"blo..ore,v7104"
+22:29:59.900446 version@stat F·[3 8] S·16MiB[1MiB 14MiB] Sc·[0.75 0.14]
+22:29:59.904481 memdb@flush committed F·1 T·16.597334ms
+22:29:59.904782 journal@remove removed @157
+22:30:00.598600 memdb@flush N·92 S·815KiB
+22:30:00.615365 memdb@flush created L0@162 N·92 S·595KiB ",v7287":"blo..ore,v7202"
+22:30:00.615402 version@stat F·[4 8] S·16MiB[2MiB 14MiB] Sc·[1.00 0.14]
+22:30:00.623237 memdb@flush committed F·1 T·24.613041ms
+22:30:00.623582 journal@remove removed @159
+22:30:00.623617 table@compaction L0·4 -> L1·8 S·16MiB Q·7294
+22:30:00.649506 table@build created L1@163 N·1624 S·2MiB ",v7287":"C:588,v4133"
+22:30:00.665419 table@build created L1@164 N·260 S·2MiB "C:589,v4140":"C:821,v5765"
+22:30:00.683393 table@build created L1@165 N·188 S·2MiB "C:822,v5772":"C:991,v6955"
+22:30:00.705664 table@build created L1@166 N·1516 S·2MiB "C:992,v6962":"P:485:0,v3404"
+22:30:00.723482 table@build created L1@167 N·295 S·2MiB "P:486:0,v3411":"P:750:0,v5259"
+22:30:00.760314 table@build created L1@168 N·195 S·2MiB "P:751:0,v5266":"P:926:0,v6492"
+22:30:00.791468 table@build created L1@169 N·474 S·2MiB "P:927:0,v6499":"SC:415,v2910"
+22:30:00.809501 table@build created L1@170 N·587 S·2MiB "SC:416,v2917":"SC:944,v6620"
+22:30:00.814387 table@build created L1@171 N·61 S·706KiB "SC:945,v6627":"blo..ore,v7286"
+22:30:00.814444 version@stat F·[0 9] S·16MiB[0B 16MiB] Sc·[0.00 0.17]
+22:30:00.821487 table@compaction committed F-3 S+243B Ke·0 D·110 T·197.846042ms
+22:30:00.821818 table@remove removed @162
+22:30:00.825429 table@remove removed @160
+22:30:00.825528 table@remove removed @158
+22:30:00.825588 table@remove removed @156
+22:30:00.825722 table@remove removed @147
+22:30:00.825903 table@remove removed @148
+22:30:00.826027 table@remove removed @149
+22:30:00.826151 table@remove removed @150
+22:30:00.826278 table@remove removed @151
+22:30:00.826375 table@remove removed @152
+22:30:00.826486 table@remove removed @153
+22:30:00.826549 table@remove removed @154
+22:30:01.310144 memdb@flush N·90 S·804KiB
+22:30:01.322389 memdb@flush created L0@173 N·90 S·591KiB ",v7378":"blo..ore,v7293"
+22:30:01.322425 version@stat F·[1 9] S·17MiB[591KiB 16MiB] Sc·[0.25 0.17]
+22:30:01.326417 memdb@flush committed F·1 T·16.246834ms
+22:30:01.326715 journal@remove removed @161
+22:30:01.944477 memdb@flush N·86 S·815KiB
+22:30:01.951355 memdb@flush created L0@175 N·86 S·604KiB ",v7462":"blo..ore,v7384"
+22:30:01.951386 version@stat F·[2 9] S·17MiB[1MiB 16MiB] Sc·[0.50 0.17]
+22:30:01.958342 memdb@flush committed F·1 T·11.925375ms
+22:30:01.958748 journal@remove removed @172
+22:30:02.628720 memdb@flush N·90 S·814KiB
+22:30:02.640448 memdb@flush created L0@177 N·90 S·614KiB ",v7553":"blo..ore,v7468"
+22:30:02.640483 version@stat F·[3 9] S·18MiB[1MiB 16MiB] Sc·[0.75 0.17]
+22:30:02.643375 memdb@flush committed F·1 T·14.629834ms
+22:30:02.643702 journal@remove removed @174
+22:30:03.221856 memdb@flush N·84 S·804KiB
+22:30:03.233400 memdb@flush created L0@179 N·84 S·586KiB ",v7637":"blo..ore,v7559"
+22:30:03.233437 version@stat F·[4 9] S·19MiB[2MiB 16MiB] Sc·[1.00 0.17]
+22:30:03.241379 memdb@flush committed F·1 T·19.497417ms
+22:30:03.241721 journal@remove removed @176
+22:30:03.241768 table@compaction L0·4 -> L1·9 S·19MiB Q·7644
+22:30:03.260601 table@build created L1@180 N·1536 S·2MiB ",v7637":"C:418,v2937"
+22:30:03.282421 table@build created L1@181 N·363 S·2MiB "C:419,v2944":"C:745,v5232"
+22:30:03.303380 table@build created L1@182 N·204 S·2MiB "C:746,v5239":"C:929,v6521"
+22:30:03.315446 table@build created L1@183 N·1229 S·2MiB "C:93,v655":"P:1056:0,v7402"
+22:30:03.342017 table@build created L1@184 N·537 S·2MiB "P:1057:0,v7409":"P:558:0,v3915"
+22:30:03.365356 table@build created L1@185 N·259 S·2MiB "P:559:0,v3922":"P:791:0,v5546"
+22:30:03.379510 table@build created L1@186 N·188 S·2MiB "P:792:0,v5553":"P:960:0,v6730"
+22:30:03.396759 table@build created L1@187 N·306 S·2MiB "P:961:0,v6737":"SC:253,v1771"
+22:30:03.423411 table@build created L1@188 N·737 S·2MiB "SC:254,v1778":"SC:917,v6431"
+22:30:03.434435 table@build created L1@189 N·91 S·1MiB "SC:918,v6438":"blo..ore,v7636"
+22:30:03.435037 version@stat F·[0 10] S·19MiB[0B 19MiB] Sc·[0.00 0.19]
+22:30:03.446328 table@compaction committed F-3 S-959B Ke·0 D·100 T·204.543875ms
+22:30:03.446489 table@remove removed @179
+22:30:03.446560 table@remove removed @177
+22:30:03.446741 table@remove removed @175
+22:30:03.446803 table@remove removed @173
+22:30:03.446939 table@remove removed @163
+22:30:03.447620 table@remove removed @164
+22:30:03.447797 table@remove removed @165
+22:30:03.447971 table@remove removed @166
+22:30:03.448082 table@remove removed @167
+22:30:03.448185 table@remove removed @168
+22:30:03.448303 table@remove removed @169
+22:30:03.450458 table@remove removed @170
+22:30:03.450566 table@remove removed @171
+22:30:03.883287 memdb@flush N·78 S·799KiB
+22:30:03.895381 memdb@flush created L0@191 N·78 S·563KiB ",v7714":"blo..ore,v7643"
+22:30:03.895408 version@stat F·[1 10] S·19MiB[563KiB 19MiB] Sc·[0.25 0.19]
+22:30:03.902327 memdb@flush committed F·1 T·19.014458ms
+22:30:03.902713 journal@remove removed @178
+22:30:04.577184 memdb@flush N·89 S·815KiB
+22:30:04.586833 memdb@flush created L0@193 N·89 S·613KiB ",v7805":"blo..ore,v7720"
+22:30:04.587082 version@stat F·[2 10] S·20MiB[1MiB 19MiB] Sc·[0.50 0.19]
+22:30:04.597429 memdb@flush committed F·1 T·20.2185ms
+22:30:04.597734 journal@remove removed @190
+22:30:05.148648 memdb@flush N·79 S·804KiB
+22:30:05.163368 memdb@flush created L0@195 N·79 S·584KiB ",v7882":"blo..ore,v7811"
+22:30:05.163406 version@stat F·[3 10] S·20MiB[1MiB 19MiB] Sc·[0.75 0.19]
+22:30:05.171150 memdb@flush committed F·1 T·22.334584ms
+22:30:05.171512 journal@remove removed @192
+22:30:05.795579 memdb@flush N·83 S·800KiB
+22:30:05.809336 memdb@flush created L0@197 N·83 S·585KiB ",v7966":"blo..ore,v7888"
+22:30:05.809372 version@stat F·[4 10] S·21MiB[2MiB 19MiB] Sc·[1.00 0.19]
+22:30:05.813306 memdb@flush committed F·1 T·17.702875ms
+22:30:05.813572 journal@remove removed @194
+22:30:05.813605 table@compaction L0·4 -> L1·10 S·21MiB Q·7973
+22:30:05.825283 table@build created L1@198 N·1283 S·2MiB ",v7966":"C:1127,v7907"
+22:30:05.849185 table@build created L1@199 N·614 S·2MiB "C:1128,v7914":"C:659,v4630"
+22:30:05.859436 table@build created L1@200 N·229 S·2MiB "C:66,v466":"C:865,v6073"
+22:30:05.880262 table@build created L1@201 N·1291 S·2MiB "C:866,v6080":"P:1005:0,v7045"
+22:30:05.890219 table@build created L1@202 N·141 S·2MiB "P:1006:0,v7052":"P:1132:0,v7934"
+22:30:05.912336 table@build created L1@203 N·574 S·2MiB "P:1133:0,v7941":"P:625:0,v4384"
+22:30:05.922978 table@build created L1@204 N·231 S·2MiB "P:626:0,v4391":"P:833:0,v5841"
+22:30:05.942292 table@build created L1@205 N·179 S·2MiB "P:834:0,v5848":"P:995:0,v6975"
+22:30:05.953395 table@build created L1@206 N·152 S·2MiB "P:996:0,v6982":"SC:1129,v7915"
+22:30:05.977316 table@build created L1@207 N·873 S·2MiB "SC:113,v789":"SC:893,v6263"
+22:30:05.994215 table@build created L1@208 N·118 S·1MiB "SC:894,v6270":"blo..ore,v7965"
+22:30:05.994547 version@stat F·[0 11] S·21MiB[0B 21MiB] Sc·[0.00 0.21]
+22:30:06.001369 table@compaction committed F-3 S-2KiB Ke·0 D·94 T·187.745875ms
+22:30:06.001593 table@remove removed @197
+22:30:06.001678 table@remove removed @195
+22:30:06.001773 table@remove removed @193
+22:30:06.002054 table@remove removed @191
+22:30:06.002218 table@remove removed @180
+22:30:06.002372 table@remove removed @181
+22:30:06.002518 table@remove removed @182
+22:30:06.002679 table@remove removed @183
+22:30:06.002805 table@remove removed @184
+22:30:06.002916 table@remove removed @185
+22:30:06.003031 table@remove removed @186
+22:30:06.003145 table@remove removed @187
+22:30:06.003262 table@remove removed @188
+22:30:06.003341 table@remove removed @189
+22:30:06.474636 memdb@flush N·83 S·802KiB
+22:30:06.483384 memdb@flush created L0@210 N·83 S·586KiB ",v8050":"blo..ore,v7972"
+22:30:06.483767 version@stat F·[1 11] S·21MiB[586KiB 21MiB] Sc·[0.25 0.21]
+22:30:06.496274 memdb@flush committed F·1 T·21.606958ms
+22:30:06.497029 journal@remove removed @196
+22:30:07.101153 memdb@flush N·84 S·806KiB
+22:30:07.110310 memdb@flush created L0@212 N·84 S·599KiB ",v8134":"blo..ore,v8056"
+22:30:07.110966 version@stat F·[2 11] S·22MiB[1MiB 21MiB] Sc·[0.50 0.21]
+22:30:07.120272 memdb@flush committed F·1 T·19.093708ms
+22:30:07.120596 journal@remove removed @209
+22:30:07.719073 memdb@flush N·84 S·809KiB
+22:30:07.743314 memdb@flush created L0@214 N·84 S·598KiB ",v8218":"blo..ore,v8140"
+22:30:07.743351 version@stat F·[3 11] S·23MiB[1MiB 21MiB] Sc·[0.75 0.21]
+22:30:07.747282 memdb@flush committed F·1 T·28.178083ms
+22:30:07.747588 journal@remove removed @211
+22:30:08.321508 memdb@flush N·84 S·799KiB
+22:30:08.332290 memdb@flush created L0@216 N·84 S·598KiB ",v8302":"blo..ore,v8224"
+22:30:08.332353 version@stat F·[4 11] S·23MiB[2MiB 21MiB] Sc·[1.00 0.21]
+22:30:08.340268 memdb@flush committed F·1 T·18.72375ms
+22:30:08.340549 journal@remove removed @213
+22:30:08.340591 table@compaction L0·4 -> L1·11 S·23MiB Q·8309
+22:30:08.365259 table@build created L1@217 N·1331 S·2MiB ",v8302":"C:1127,v7907"
+22:30:08.384603 table@build created L1@218 N·532 S·2MiB "C:1128,v7914":"C:541,v3804"
+22:30:08.401180 table@build created L1@219 N·280 S·2MiB "C:542,v3811":"C:794,v5575"
+22:30:08.421931 table@build created L1@220 N·194 S·2MiB "C:795,v5582":"C:969,v6801"
+22:30:08.440679 table@build created L1@221 N·1313 S·2MiB "C:97,v683":"P:1086:0,v7612"
+22:30:08.477267 table@build created L1@222 N·310 S·2MiB "P:1087:0,v7619":"P:299:0,v2092"
+22:30:08.501486 table@build created L1@223 N·430 S·2MiB "P:29:0,v199":"P:686:0,v4811"
+22:30:08.520280 table@build created L1@224 N·209 S·2MiB "P:687:0,v4818":"P:874:0,v6128"
+22:30:08.535316 table@build created L1@225 N·178 S·2MiB "P:875:0,v6135":"SC:1031,v7229"
+22:30:08.553380 table@build created L1@226 N·141 S·2MiB "SC:1032,v7236":"SC:1159,v8125"
+22:30:08.577307 table@build created L1@227 N·860 S·2MiB "SC:116,v810":"SC:868,v6088"
+22:30:08.586298 table@build created L1@228 N·146 S·1MiB "SC:869,v6095":"blo..ore,v8301"
+22:30:08.586361 version@stat F·[0 12] S·23MiB[0B 23MiB] Sc·[0.00 0.24]
+22:30:08.594313 table@compaction committed F-3 S+889B Ke·0 D·96 T·253.71375ms
+22:30:08.594677 table@remove removed @216
+22:30:08.594760 table@remove removed @214
+22:30:08.594851 table@remove removed @212
+22:30:08.594941 table@remove removed @210
+22:30:08.595078 table@remove removed @198
+22:30:08.595198 table@remove removed @199
+22:30:08.595334 table@remove removed @200
+22:30:08.595511 table@remove removed @201
+22:30:08.595666 table@remove removed @202
+22:30:08.595809 table@remove removed @203
+22:30:08.595973 table@remove removed @204
+22:30:08.596096 table@remove removed @205
+22:30:08.596225 table@remove removed @206
+22:30:08.596351 table@remove removed @207
+22:30:08.596454 table@remove removed @208
+22:30:09.014820 memdb@flush N·84 S·804KiB
+22:30:09.031118 memdb@flush created L0@230 N·84 S·595KiB ",v8386":"blo..ore,v8308"
+22:30:09.031154 version@stat F·[1 12] S·24MiB[595KiB 23MiB] Sc·[0.25 0.24]
+22:30:09.035266 memdb@flush committed F·1 T·20.415958ms
+22:30:09.035510 journal@remove removed @215
+22:30:09.577924 memdb@flush N·79 S·802KiB
+22:30:09.590240 memdb@flush created L0@232 N·79 S·585KiB ",v8463":"blo..ore,v8392"
+22:30:09.590274 version@stat F·[2 12] S·24MiB[1MiB 23MiB] Sc·[0.50 0.24]
+22:30:09.593267 memdb@flush committed F·1 T·15.321416ms
+22:30:09.593591 journal@remove removed @229
+22:30:10.216977 memdb@flush N·84 S·809KiB
+22:30:10.230218 memdb@flush created L0@234 N·84 S·600KiB ",v8547":"blo..ore,v8469"
+22:30:10.230254 version@stat F·[3 12] S·25MiB[1MiB 23MiB] Sc·[0.75 0.24]
+22:30:10.238241 memdb@flush committed F·1 T·21.095625ms
+22:30:10.238640 journal@remove removed @231
+22:30:11.267690 memdb@flush N·83 S·812KiB
+22:30:11.284173 memdb@flush created L0@236 N·83 S·595KiB ",v8631":"blo..ore,v8553"
+22:30:11.284205 version@stat F·[4 12] S·26MiB[2MiB 23MiB] Sc·[1.00 0.24]
+22:30:11.287196 memdb@flush committed F·1 T·19.486918ms
+22:30:11.287920 journal@remove removed @233
+22:30:11.287956 table@compaction L0·4 -> L1·12 S·26MiB Q·8638
+22:30:11.306285 table@build created L1@237 N·1378 S·2MiB ",v8631":"C:1127,v7907"
+22:30:11.325934 table@build created L1@238 N·376 S·2MiB "C:1128,v7914":"C:359,v2523"
+22:30:11.338600 table@build created L1@239 N·398 S·2MiB "C:36,v256":"C:717,v5036"
+22:30:11.360126 table@build created L1@240 N·210 S·2MiB "C:718,v5043":"C:906,v6360"
+22:30:11.379378 table@build created L1@241 N·1374 S·2MiB "C:907,v6367":"P:1036:0,v7262"
+22:30:11.416340 table@build created L1@242 N·138 S·2MiB "P:1037:0,v7269":"P:1160:0,v8130"
+22:30:11.442264 table@build created L1@243 N·413 S·2MiB "P:1161:0,v8137":"P:422:0,v2957"
+22:30:11.453232 table@build created L1@244 N·343 S·2MiB "P:423:0,v2964":"P:731:0,v5126"
+22:30:11.473237 table@build created L1@245 N·199 S·2MiB "P:732:0,v5133":"P:910:0,v6380"
+22:30:11.483201 table@build created L1@246 N·169 S·2MiB "P:911:0,v6387":"SC:1060,v7432"
+22:30:11.502226 table@build created L1@247 N·139 S·2MiB "SC:1061,v7439":"SC:1186,v8314"
+22:30:11.519415 table@build created L1@248 N·845 S·2MiB "SC:1187,v8321":"SC:839,v5885"
+22:30:11.533088 table@build created L1@249 N·178 S·1MiB "SC:84,v586":"blo..ore,v8630"
+22:30:11.533173 version@stat F·[0 13] S·26MiB[0B 26MiB] Sc·[0.00 0.26]
+22:30:11.537232 table@compaction committed F-3 S-1KiB Ke·0 D·94 T·249.261917ms
+22:30:11.537517 table@remove removed @236
+22:30:11.537616 table@remove removed @234
+22:30:11.537693 table@remove removed @232
+22:30:11.537774 table@remove removed @230
+22:30:11.537918 table@remove removed @217
+22:30:11.538066 table@remove removed @218
+22:30:11.538207 table@remove removed @219
+22:30:11.538332 table@remove removed @220
+22:30:11.538460 table@remove removed @221
+22:30:11.538576 table@remove removed @222
+22:30:11.538697 table@remove removed @223
+22:30:11.538827 table@remove removed @224
+22:30:11.538960 table@remove removed @225
+22:30:11.539079 table@remove removed @226
+22:30:11.539202 table@remove removed @227
+22:30:11.539305 table@remove removed @228
+22:30:11.994823 memdb@flush N·83 S·813KiB
+22:30:12.008260 memdb@flush created L0@251 N·83 S·603KiB ",v8715":"blo..ore,v8637"
+22:30:12.008318 version@stat F·[1 13] S·26MiB[603KiB 26MiB] Sc·[0.25 0.26]
+22:30:12.015153 memdb@flush committed F·1 T·20.302417ms
+22:30:12.015448 journal@remove removed @235
+22:30:12.638118 memdb@flush N·78 S·798KiB
+22:30:12.657171 memdb@flush created L0@253 N·78 S·592KiB ",v8792":"blo..ore,v8721"
+22:30:12.657207 version@stat F·[2 13] S·27MiB[1MiB 26MiB] Sc·[0.50 0.26]
+22:30:12.665204 memdb@flush committed F·1 T·27.056333ms
+22:30:12.665822 journal@remove removed @250
+22:30:13.319821 memdb@flush N·83 S·805KiB
+22:30:13.334277 memdb@flush created L0@255 N·83 S·615KiB ",v8876":"blo..ore,v8798"
+22:30:13.334328 version@stat F·[3 13] S·27MiB[1MiB 26MiB] Sc·[0.75 0.26]
+22:30:13.343208 memdb@flush committed F·1 T·22.811333ms
+22:30:13.343991 journal@remove removed @252
+22:30:13.948114 memdb@flush N·79 S·807KiB
+22:30:13.961160 memdb@flush created L0@257 N·79 S·615KiB ",v8953":"blo..ore,v8882"
+22:30:13.961199 version@stat F·[4 13] S·28MiB[2MiB 26MiB] Sc·[1.00 0.26]
+22:30:13.966187 memdb@flush committed F·1 T·17.876666ms
+22:30:13.966654 journal@remove removed @254
+22:30:13.966707 table@compaction L0·4 -> L1·13 S·28MiB Q·8960
+22:30:13.994237 table@build created L1@258 N·1423 S·2MiB ",v8953":"C:1126,v7900"
+22:30:14.021543 table@build created L1@259 N·138 S·2MiB "C:1127,v7907":"C:1250,v8768"
+22:30:14.045254 table@build created L1@260 N·569 S·2MiB "C:1251,v8775":"C:613,v4308"
+22:30:14.075133 table@build created L1@261 N·248 S·2MiB "C:614,v4315":"C:837,v5877"
+22:30:14.095147 table@build created L1@262 N·442 S·2MiB "C:838,v5884":"H:1234,v8646"
+22:30:14.115291 table@build created L1@263 N·1139 S·2MiB "H:1235,v8653":"P:1111:0,v7787"
+22:30:14.131146 table@build created L1@264 N·134 S·2MiB "P:1112:0,v7794":"P:1232:0,v8634"
+22:30:14.159167 table@build created L1@265 N·488 S·2MiB "P:1233:0,v8641":"P:520:0,v3649"
+22:30:14.182802 table@build created L1@266 N·277 S·2MiB "P:521:0,v3656":"P:770:0,v5399"
+22:30:14.194247 table@build created L1@267 N·191 S·2MiB "P:771:0,v5406":"P:942:0,v6604"
+22:30:14.221128 table@build created L1@268 N·162 S·2MiB "P:943:0,v6611":"SC:1086,v7614"
+22:30:14.238126 table@build created L1@269 N·140 S·2MiB "SC:1087,v7621":"SC:1211,v8489"
+22:30:14.251163 table@build created L1@270 N·821 S·2MiB "SC:1212,v8496":"SC:801,v5618"
+22:30:14.273018 table@build created L1@271 N·194 S·2MiB "SC:802,v5625":"SC:977,v6851"
+22:30:14.286139 table@build created L1@272 N·25 S·285KiB "SC:978,v6858":"blo..ore,v8952"
+22:30:14.286203 version@stat F·[0 15] S·28MiB[0B 28MiB] Sc·[0.00 0.28]
+22:30:14.298134 table@compaction committed F-2 S-2KiB Ke·0 D·92 T·331.41275ms
+22:30:14.298403 table@remove removed @257
+22:30:14.298550 table@remove removed @255
+22:30:14.298651 table@remove removed @253
+22:30:14.298741 table@remove removed @251
+22:30:14.298911 table@remove removed @237
+22:30:14.299062 table@remove removed @238
+22:30:14.299495 table@remove removed @239
+22:30:14.303677 table@remove removed @240
+22:30:14.308374 table@remove removed @241
+22:30:14.308550 table@remove removed @242
+22:30:14.308733 table@remove removed @243
+22:30:14.312345 table@remove removed @244
+22:30:14.313973 table@remove removed @245
+22:30:14.320077 table@remove removed @246
+22:30:14.320275 table@remove removed @247
+22:30:14.324171 table@remove removed @248
+22:30:14.324758 table@remove removed @249
+22:30:14.696874 memdb@flush N·83 S·810KiB
+22:30:14.711152 memdb@flush created L0@274 N·83 S·615KiB ",v9037":"blo..ore,v8959"
+22:30:14.711191 version@stat F·[1 15] S·29MiB[615KiB 28MiB] Sc·[0.25 0.28]
+22:30:14.714196 memdb@flush committed F·1 T·17.301167ms
+22:30:14.714544 journal@remove removed @256
+22:30:15.275326 memdb@flush N·78 S·799KiB
+22:30:15.288214 memdb@flush created L0@276 N·78 S·599KiB ",v9114":"blo..ore,v9043"
+22:30:15.288267 version@stat F·[2 15] S·29MiB[1MiB 28MiB] Sc·[0.50 0.28]
+22:30:15.295901 memdb@flush committed F·1 T·16.629292ms
+22:30:15.296263 journal@remove removed @273
+22:30:15.993601 memdb@flush N·82 S·798KiB
+22:30:16.007191 memdb@flush created L0@278 N·82 S·607KiB ",v9198":"blo..ore,v9120"
+22:30:16.007290 version@stat F·[3 15] S·30MiB[1MiB 28MiB] Sc·[0.75 0.28]
+22:30:16.013071 memdb@flush committed F·1 T·19.429792ms
+22:30:16.013457 journal@remove removed @275
+22:30:16.740138 memdb@flush N·79 S·814KiB
+22:30:16.752100 memdb@flush created L0@280 N·79 S·631KiB ",v9275":"blo..ore,v9204"
+22:30:16.752146 version@stat F·[4 15] S·30MiB[2MiB 28MiB] Sc·[1.00 0.28]
+22:30:16.755398 memdb@flush committed F·1 T·15.146125ms
+22:30:16.755899 journal@remove removed @277
+22:30:16.755943 table@compaction L0·4 -> L1·15 S·30MiB Q·9282
+22:30:16.769015 table@build created L1@281 N·1469 S·2MiB ",v9275":"C:1126,v7900"
+22:30:16.793094 table@build created L1@282 N·138 S·2MiB "C:1127,v7907":"C:1250,v8768"
+22:30:16.829341 table@build created L1@283 N·464 S·2MiB "C:1251,v8775":"C:478,v3363"
+22:30:16.851241 table@build created L1@284 N·315 S·2MiB "C:479,v3370":"C:761,v5344"
+22:30:16.874157 table@build created L1@285 N·201 S·2MiB "C:762,v5351":"C:942,v6612"
+22:30:16.919217 table@build created L1@286 N·1455 S·2MiB "C:943,v6619":"P:1062:0,v7444"
+22:30:16.954056 table@build created L1@287 N·135 S·2MiB "P:1063:0,v7451":"P:1184:0,v8298"
+22:30:17.003477 table@build created L1@288 N·131 S·2MiB "P:1185:0,v8305":"P:1301:0,v9117"
+22:30:17.022165 table@build created L1@289 N·525 S·2MiB "P:1302:0,v9124":"P:582:0,v4083"
+22:30:17.051096 table@build created L1@290 N·249 S·2MiB "P:583:0,v4090":"P:806:0,v5652"
+22:30:17.072576 table@build created L1@291 N·184 S·2MiB "P:807:0,v5659":"P:972:0,v6814"
+22:30:17.096163 table@build created L1@292 N·157 S·2MiB "P:973:0,v6821":"SC:1110,v7782"
+22:30:17.120650 table@build created L1@293 N·138 S·2MiB "SC:1111,v7789":"SC:1235,v8657"
+22:30:17.148074 table@build created L1@294 N·416 S·2MiB "SC:1236,v8664":"SC:419,v2938"
+22:30:17.162109 table@build created L1@295 N·585 S·2MiB "SC:42,v292":"SC:946,v6634"
+22:30:17.182079 table@build created L1@296 N·59 S·681KiB "SC:947,v6641":"blo..ore,v9274"
+22:30:17.182146 version@stat F·[0 16] S·30MiB[0B 30MiB] Sc·[0.00 0.31]
+22:30:17.190120 table@compaction committed F-3 S+1KiB Ke·0 D·92 T·434.162541ms
+22:30:17.190557 table@remove removed @280
+22:30:17.190645 table@remove removed @278
+22:30:17.193581 table@remove removed @276
+22:30:17.193698 table@remove removed @274
+22:30:17.193875 table@remove removed @258
+22:30:17.194016 table@remove removed @259
+22:30:17.194163 table@remove removed @260
+22:30:17.194394 table@remove removed @261
+22:30:17.194587 table@remove removed @262
+22:30:17.194756 table@remove removed @263
+22:30:17.194880 table@remove removed @264
+22:30:17.194991 table@remove removed @265
+22:30:17.195105 table@remove removed @266
+22:30:17.195214 table@remove removed @267
+22:30:17.195345 table@remove removed @268
+22:30:17.195481 table@remove removed @269
+22:30:17.195601 table@remove removed @270
+22:30:17.195737 table@remove removed @271
+22:30:17.195793 table@remove removed @272
+22:30:17.510579 memdb@flush N·77 S·797KiB
+22:30:17.523077 memdb@flush created L0@298 N·77 S·599KiB ",v9352":"blo..ore,v9281"
+22:30:17.523132 version@stat F·[1 16] S·31MiB[599KiB 30MiB] Sc·[0.25 0.31]
+22:30:17.530534 memdb@flush committed F·1 T·19.665793ms
+22:30:17.530931 journal@remove removed @279
+22:30:18.251051 memdb@flush N·83 S·818KiB
+22:30:18.260205 memdb@flush created L0@300 N·83 S·631KiB ",v9436":"blo..ore,v9358"
+22:30:18.260498 version@stat F·[2 16] S·32MiB[1MiB 30MiB] Sc·[0.50 0.31]
+22:30:18.268557 memdb@flush committed F·1 T·17.349417ms
+22:30:18.268906 journal@remove removed @297
+22:30:18.955185 memdb@flush N·78 S·811KiB
+22:30:18.965306 memdb@flush created L0@302 N·78 S·613KiB ",v9513":"blo..ore,v9442"
+22:30:18.965343 version@stat F·[3 16] S·32MiB[1MiB 30MiB] Sc·[0.75 0.31]
+22:30:18.973147 memdb@flush committed F·1 T·17.929208ms
+22:30:18.973526 journal@remove removed @299
+22:30:20.034201 memdb@flush N·82 S·806KiB
+22:30:20.042156 memdb@flush created L0@304 N·82 S·621KiB ",v9597":"blo..ore,v9519"
+22:30:20.042443 version@stat F·[4 16] S·33MiB[2MiB 30MiB] Sc·[1.00 0.31]
+22:30:20.054112 memdb@flush committed F·1 T·19.771833ms
+22:30:20.054446 journal@remove removed @301
+22:30:20.054485 table@compaction L0·4 -> L1·16 S·33MiB Q·9604
+22:30:20.067194 table@build created L1@305 N·1515 S·2MiB ",v9597":"C:1126,v7900"
+22:30:20.106001 table@build created L1@306 N·138 S·2MiB "C:1127,v7907":"C:1250,v8768"
+22:30:20.125268 table@build created L1@307 N·129 S·2MiB "C:1251,v8775":"C:1367,v9587"
+22:30:20.140283 table@build created L1@308 N·599 S·2MiB "C:1368,v9594":"C:675,v4742"
+22:30:20.157074 table@build created L1@309 N·223 S·2MiB "C:676,v4749":"C:876,v6150"
+22:30:20.175037 table@build created L1@310 N·1518 S·2MiB "C:877,v6157":"P:1010:0,v7080"
+22:30:20.185390 table@build created L1@311 N·140 S·2MiB "P:1011:0,v7087":"P:1137:0,v7969"
+22:30:20.202928 table@build created L1@312 N·133 S·2MiB "P:1138:0,v7976":"P:1257:0,v8809"
+22:30:20.221520 table@build created L1@313 N·124 S·2MiB "P:1258:0,v8816":"P:1369:0,v9593"
+22:30:20.242062 table@build created L1@314 N·561 S·2MiB "P:136:0,v948":"P:640:0,v4489"
+22:30:20.254012 table@build created L1@315 N·225 S·2MiB "P:641:0,v4496":"P:843:0,v5911"
+22:30:20.276094 table@build created L1@316 N·182 S·2MiB "P:844:0,v5918":"SC:1004,v7040"
+22:30:20.287248 table@build created L1@317 N·146 S·2MiB "SC:1005,v7047":"SC:1136,v7964"
+22:30:20.308194 table@build created L1@318 N·138 S·2MiB "SC:1137,v7971":"SC:1260,v8832"
+22:30:20.320135 table@build created L1@319 N·214 S·2MiB "SC:1261,v8839":"SC:220,v1540"
+22:30:20.359239 table@build created L1@320 N·771 S·2MiB "SC:221,v1547":"SC:915,v6417"
+22:30:20.382757 table@build created L1@321 N·93 S·1MiB "SC:916,v6424":"blo..ore,v9596"
+22:30:20.382885 version@stat F·[0 17] S·33MiB[0B 33MiB] Sc·[0.00 0.33]
+22:30:20.390047 table@compaction committed F-3 S-1KiB Ke·0 D·92 T·335.540792ms
+22:30:20.390386 table@remove removed @304
+22:30:20.390486 table@remove removed @302
+22:30:20.390606 table@remove removed @300
+22:30:20.390697 table@remove removed @298
+22:30:20.390852 table@remove removed @281
+22:30:20.391199 table@remove removed @282
+22:30:20.391783 table@remove removed @283
+22:30:20.392036 table@remove removed @284
+22:30:20.392341 table@remove removed @285
+22:30:20.392862 table@remove removed @286
+22:30:20.393236 table@remove removed @287
+22:30:20.393547 table@remove removed @288
+22:30:20.393694 table@remove removed @289
+22:30:20.394026 table@remove removed @290
+22:30:20.394547 table@remove removed @291
+22:30:20.394670 table@remove removed @292
+22:30:20.394779 table@remove removed @293
+22:30:20.394894 table@remove removed @294
+22:30:20.395011 table@remove removed @295
+22:30:20.395079 table@remove removed @296
+22:30:20.743087 memdb@flush N·78 S·812KiB
+22:30:20.756107 memdb@flush created L0@323 N·78 S·626KiB ",v9674":"blo..ore,v9603"
+22:30:20.756637 version@stat F·[1 17] S·33MiB[626KiB 33MiB] Sc·[0.25 0.33]
+22:30:20.767034 memdb@flush committed F·1 T·23.900708ms
+22:30:20.767509 journal@remove removed @303
+22:30:21.449391 memdb@flush N·78 S·798KiB
+22:30:21.464064 memdb@flush created L0@325 N·78 S·620KiB ",v9751":"blo..ore,v9680"
+22:30:21.464113 version@stat F·[2 17] S·34MiB[1MiB 33MiB] Sc·[0.50 0.33]
+22:30:21.472007 memdb@flush committed F·1 T·21.8595ms
+22:30:21.472437 journal@remove removed @322
+22:30:22.467928 memdb@flush N·83 S·808KiB
+22:30:22.478317 memdb@flush created L0@327 N·83 S·637KiB ",v9835":"blo..ore,v9757"
+22:30:22.478361 version@stat F·[3 17] S·35MiB[1MiB 33MiB] Sc·[0.75 0.33]
+22:30:22.486043 memdb@flush committed F·1 T·18.066209ms
+22:30:22.486589 journal@remove removed @324
+22:30:23.312127 memdb@flush N·83 S·812KiB
+22:30:23.320992 memdb@flush created L0@329 N·83 S·639KiB ",v9919":"blo..ore,v9841"
+22:30:23.321604 version@stat F·[4 17] S·35MiB[2MiB 33MiB] Sc·[1.00 0.33]
+22:30:23.330983 memdb@flush committed F·1 T·18.716125ms
+22:30:23.331292 journal@remove removed @326
+22:30:23.331339 table@compaction L0·4 -> L1·17 S·35MiB Q·9926
+22:30:23.344006 table@build created L1@330 N·1561 S·2MiB ",v9919":"C:1126,v7900"
+22:30:23.363012 table@build created L1@331 N·138 S·2MiB "C:1127,v7907":"C:1250,v8768"
+22:30:23.380017 table@build created L1@332 N·129 S·2MiB "C:1251,v8775":"C:1367,v9587"
+22:30:23.401052 table@build created L1@333 N·513 S·2MiB "C:1368,v9594":"C:556,v3909"
+22:30:23.423067 table@build created L1@334 N·274 S·2MiB "C:557,v3916":"C:802,v5631"
+22:30:23.448422 table@build created L1@335 N·191 S·2MiB "C:803,v5638":"C:975,v6843"
+22:30:23.471072 table@build created L1@336 N·1537 S·2MiB "C:976,v6850":"P:1086:0,v7612"
+22:30:23.485032 table@build created L1@337 N·136 S·2MiB "P:1087:0,v7619":"P:1208:0,v8466"
+22:30:23.512072 table@build created L1@338 N·128 S·2MiB "P:1209:0,v8473":"P:1323:0,v9271"
+22:30:23.533017 table@build created L1@339 N·259 S·2MiB "P:1324:0,v9278":"P:282:0,v1973"
+22:30:23.552055 table@build created L1@340 N·444 S·2MiB "P:283:0,v1980":"P:682:0,v4783"
+22:30:23.577081 table@build created L1@341 N·210 S·2MiB "P:683:0,v4790":"P:871:0,v6107"
+22:30:23.596061 table@build created L1@342 N·177 S·2MiB "P:872:0,v6114":"SC:1028,v7208"
+22:30:23.613955 table@build created L1@343 N·142 S·2MiB "SC:1029,v7215":"SC:1156,v8104"
+22:30:23.652375 table@build created L1@344 N·136 S·2MiB "SC:1157,v8111":"SC:1279,v8965"
+22:30:23.676087 table@build created L1@345 N·129 S·2MiB "SC:128,v894":"SC:1395,v9777"
+22:30:23.694788 table@build created L1@346 N·836 S·2MiB "SC:1396,v9784":"SC:874,v6130"
+22:30:23.728687 table@build created L1@347 N·139 S·1MiB "SC:875,v6137":"blo..ore,v9918"
+22:30:23.729300 version@stat F·[0 18] S·35MiB[0B 35MiB] Sc·[0.00 0.36]
+22:30:23.744932 table@compaction committed F-3 S-1KiB Ke·0 D·92 T·413.576959ms
+22:30:23.745072 table@remove removed @329
+22:30:23.745300 table@remove removed @327
+22:30:23.745371 table@remove removed @325
+22:30:23.745434 table@remove removed @323
+22:30:23.745554 table@remove removed @305
+22:30:23.745880 table@remove removed @306
+22:30:23.746004 table@remove removed @307
+22:30:23.746129 table@remove removed @308
+22:30:23.748291 table@remove removed @309
+22:30:23.748424 table@remove removed @310
+22:30:23.748557 table@remove removed @311
+22:30:23.748678 table@remove removed @312
+22:30:23.748809 table@remove removed @313
+22:30:23.748916 table@remove removed @314
+22:30:23.749021 table@remove removed @315
+22:30:23.749157 table@remove removed @316
+22:30:23.749256 table@remove removed @317
+22:30:23.749386 table@remove removed @318
+22:30:23.749506 table@remove removed @319
+22:30:23.749606 table@remove removed @320
+22:30:23.749700 table@remove removed @321
+22:30:24.026725 memdb@flush N·78 S·795KiB
+22:30:24.038999 memdb@flush created L0@349 N·78 S·624KiB ",v9996":"blo..ore,v9925"
+22:30:24.039038 version@stat F·[1 18] S·36MiB[624KiB 35MiB] Sc·[0.25 0.36]
+22:30:24.046029 memdb@flush committed F·1 T·19.274792ms
+22:30:24.046359 journal@remove removed @328
+22:30:24.781454 memdb@flush N·78 S·805KiB
+22:30:24.793995 memdb@flush created L0@351 N·78 S·626KiB ",v10073":"blo..ore,v10002"
+22:30:24.794028 version@stat F·[2 18] S·36MiB[1MiB 35MiB] Sc·[0.50 0.36]
+22:30:24.802951 memdb@flush committed F·1 T·21.476041ms
+22:30:24.803302 journal@remove removed @348
+22:30:25.519024 memdb@flush N·82 S·798KiB
+22:30:25.535961 memdb@flush created L0@353 N·82 S·624KiB ",v10157":"blo..ore,v10079"
+22:30:25.536000 version@stat F·[3 18] S·37MiB[1MiB 35MiB] Sc·[0.75 0.36]
+22:30:25.542915 memdb@flush committed F·1 T·23.730625ms
+22:30:25.543257 journal@remove removed @350
+22:30:26.192101 memdb@flush N·78 S·798KiB
+22:30:26.202862 memdb@flush created L0@355 N·78 S·627KiB ",v10234":"blo..ore,v10163"
+22:30:26.203170 version@stat F·[4 18] S·38MiB[2MiB 35MiB] Sc·[1.00 0.36]
+22:30:26.214990 memdb@flush committed F·1 T·22.859375ms
+22:30:26.215376 journal@remove removed @352
+22:30:26.215413 table@compaction L0·4 -> L1·18 S·38MiB Q·10241
+22:30:26.241829 table@build created L1@356 N·1606 S·2MiB ",v10234":"C:1126,v7900"
+22:30:26.262979 table@build created L1@357 N·138 S·2MiB "C:1127,v7907":"C:1250,v8768"
+22:30:26.298311 table@build created L1@358 N·129 S·2MiB "C:1251,v8775":"C:1367,v9587"
+22:30:26.319905 table@build created L1@359 N·356 S·2MiB "C:1368,v9594":"C:374,v2628"
+22:30:26.376548 table@build created L1@360 N·389 S·2MiB "C:375,v2635":"C:724,v5085"
+22:30:26.395953 table@build created L1@361 N·209 S·2MiB "C:725,v5092":"C:912,v6402"
+22:30:26.425310 table@build created L1@362 N·1596 S·2MiB "C:913,v6409":"P:1036:0,v7262"
+22:30:26.437053 table@build created L1@363 N·138 S·2MiB "P:1037:0,v7269":"P:1160:0,v8130"
+22:30:26.456435 table@build created L1@364 N·131 S·2MiB "P:1161:0,v8137":"P:1279:0,v8963"
+22:30:26.474079 table@build created L1@365 N·124 S·2MiB "P:127:0,v885":"P:1390:0,v9740"
+22:30:26.493806 table@build created L1@366 N·369 S·2MiB "P:1391:0,v9747":"P:406:0,v2845"
+22:30:26.518974 table@build created L1@367 N·351 S·2MiB "P:407:0,v2852":"P:722:0,v5063"
+22:30:26.541939 table@build created L1@368 N·201 S·2MiB "P:723:0,v5070":"P:903:0,v6331"
+22:30:26.562997 table@build created L1@369 N·170 S·2MiB "P:904:0,v6338":"SC:1054,v7390"
+22:30:26.587385 table@build created L1@370 N·140 S·2MiB "SC:1055,v7397":"SC:1180,v8272"
+22:30:26.609104 table@build created L1@371 N·135 S·2MiB "SC:1181,v8279":"SC:1301,v9119"
+22:30:26.630961 table@build created L1@372 N·127 S·2MiB "SC:1302,v9126":"SC:1416,v9924"
+22:30:26.655975 table@build created L1@373 N·816 S·2MiB "SC:1417,v9931":"SC:837,v5871"
+22:30:26.671105 table@build created L1@374 N·180 S·1MiB "SC:838,v5878":"blo..ore,v10233"
+22:30:26.671406 version@stat F·[0 19] S·38MiB[0B 38MiB] Sc·[0.00 0.38]
+22:30:26.684004 table@compaction committed F-3 S-2KiB Ke·0 D·90 T·468.560583ms
+22:30:26.684182 table@remove removed @355
+22:30:26.684632 table@remove removed @353
+22:30:26.684739 table@remove removed @351
+22:30:26.684806 table@remove removed @349
+22:30:26.684980 table@remove removed @330
+22:30:26.685126 table@remove removed @331
+22:30:26.685320 table@remove removed @332
+22:30:26.685472 table@remove removed @333
+22:30:26.685633 table@remove removed @334
+22:30:26.685788 table@remove removed @335
+22:30:26.685957 table@remove removed @336
+22:30:26.686125 table@remove removed @337
+22:30:26.686285 table@remove removed @338
+22:30:26.686405 table@remove removed @339
+22:30:26.686534 table@remove removed @340
+22:30:26.686660 table@remove removed @341
+22:30:26.686796 table@remove removed @342
+22:30:26.686950 table@remove removed @343
+22:30:26.687140 table@remove removed @344
+22:30:26.687782 table@remove removed @345
+22:30:26.687937 table@remove removed @346
+22:30:26.688060 table@remove removed @347
+22:30:26.985703 memdb@flush N·78 S·805KiB
+22:30:26.995910 memdb@flush created L0@376 N·78 S·632KiB ",v10311":"blo..ore,v10240"
+22:30:26.995943 version@stat F·[1 19] S·38MiB[632KiB 38MiB] Sc·[0.25 0.38]
+22:30:26.999970 memdb@flush committed F·1 T·14.2345ms
+22:30:27.000332 journal@remove removed @354
+22:30:27.707474 memdb@flush N·82 S·806KiB
+22:30:27.729026 memdb@flush created L0@378 N·82 S·637KiB ",v10395":"blo..ore,v10317"
+22:30:27.729598 version@stat F·[2 19] S·39MiB[1MiB 38MiB] Sc·[0.50 0.38]
+22:30:27.741917 memdb@flush committed F·1 T·34.416167ms
+22:30:27.742305 journal@remove removed @375
+22:30:28.381621 memdb@flush N·78 S·796KiB
+22:30:28.392894 memdb@flush created L0@380 N·78 S·636KiB ",v10472":"blo..ore,v10401"
+22:30:28.393683 version@stat F·[3 19] S·39MiB[1MiB 38MiB] Sc·[0.75 0.38]
+22:30:28.402847 memdb@flush committed F·1 T·21.202833ms
+22:30:28.403133 journal@remove removed @377
+22:30:29.150885 memdb@flush N·83 S·815KiB
+22:30:29.174853 memdb@flush created L0@382 N·83 S·649KiB ",v10556":"blo..ore,v10478"
+22:30:29.175054 version@stat F·[4 19] S·40MiB[2MiB 38MiB] Sc·[1.00 0.38]
+22:30:29.180087 memdb@flush committed F·1 T·29.163916ms
+22:30:29.180409 journal@remove removed @379
+22:30:29.180464 table@compaction L0·4 -> L1·19 S·40MiB Q·10563
+22:30:29.193734 table@build created L1@383 N·1651 S·2MiB ",v10556":"C:1125,v7893"
+22:30:29.212954 table@build created L1@384 N·137 S·2MiB "C:1126,v7900":"C:1249,v8761"
+22:30:29.232993 table@build created L1@385 N·130 S·2MiB "C:125,v879":"C:1366,v9580"
+22:30:29.249871 table@build created L1@386 N·127 S·2MiB "C:1367,v9587":"C:1480,v10378"
+22:30:29.270985 table@build created L1@387 N·546 S·2MiB "C:1481,v10385":"C:617,v4336"
+22:30:29.292943 table@build created L1@388 N·246 S·2MiB "C:618,v4343":"C:839,v5891"
+22:30:29.319891 table@build created L1@389 N·521 S·2MiB "C:84,v592":"H:1307,v9157"
+22:30:29.339901 table@build created L1@390 N·1284 S·2MiB "H:1308,v9164":"P:1109:0,v7773"
+22:30:29.367052 table@build created L1@391 N·135 S·2MiB "P:110:0,v766":"P:1230:0,v8620"
+22:30:29.377866 table@build created L1@392 N·126 S·2MiB "P:1231:0,v8627":"P:1344:0,v9418"
+22:30:29.395952 table@build created L1@393 N·121 S·2MiB "P:1345:0,v9425":"P:1453:0,v10181"
+22:30:29.420993 table@build created L1@394 N·441 S·2MiB "P:1454:0,v10188":"P:494:0,v3467"
+22:30:29.443047 table@build created L1@395 N·290 S·2MiB "P:495:0,v3474":"P:755:0,v5294"
+22:30:29.466626 table@build created L1@396 N·195 S·2MiB "P:756:0,v5301":"P:930:0,v6520"
+22:30:29.494949 table@build created L1@397 N·164 S·2MiB "P:931:0,v6527":"SC:1076,v7544"
+22:30:29.517947 table@build created L1@398 N·140 S·2MiB "SC:1077,v7551":"SC:1201,v8419"
+22:30:29.532966 table@build created L1@399 N·133 S·2MiB "SC:1202,v8426":"SC:1321,v9259"
+22:30:29.554885 table@build created L1@400 N·127 S·2MiB "SC:1322,v9266":"SC:1436,v10064"
+22:30:29.579867 table@build created L1@401 N·650 S·2MiB "SC:1437,v10071":"SC:666,v4673"
+22:30:29.601739 table@build created L1@402 N·334 S·2MiB "SC:667,v4680":"SC:967,v6781"
+22:30:29.607971 table@build created L1@403 N·36 S·413KiB "SC:968,v6788":"blo..ore,v10555"
+22:30:29.608042 version@stat F·[0 21] S·40MiB[0B 40MiB] Sc·[0.00 0.41]
+22:30:29.614969 table@compaction committed F-2 S-2KiB Ke·0 D·92 T·434.493542ms
+22:30:29.615659 table@remove removed @382
+22:30:29.618935 table@remove removed @380
+22:30:29.619365 table@remove removed @378
+22:30:29.619462 table@remove removed @376
+22:30:29.622058 table@remove removed @356
+22:30:29.622253 table@remove removed @357
+22:30:29.622418 table@remove removed @358
+22:30:29.622534 table@remove removed @359
+22:30:29.622663 table@remove removed @360
+22:30:29.622792 table@remove removed @361
+22:30:29.622893 table@remove removed @362
+22:30:29.623239 table@remove removed @363
+22:30:29.623370 table@remove removed @364
+22:30:29.623484 table@remove removed @365
+22:30:29.623600 table@remove removed @366
+22:30:29.626935 table@remove removed @367
+22:30:29.627257 table@remove removed @368
+22:30:29.627385 table@remove removed @369
+22:30:29.627516 table@remove removed @370
+22:30:29.627653 table@remove removed @371
+22:30:29.627795 table@remove removed @372
+22:30:29.627945 table@remove removed @373
+22:30:29.628092 table@remove removed @374
+22:30:29.850307 memdb@flush N·79 S·816KiB
+22:30:29.863857 memdb@flush created L0@405 N·79 S·649KiB ",v10633":"blo..ore,v10562"
+22:30:29.863890 version@stat F·[1 21] S·41MiB[649KiB 40MiB] Sc·[0.25 0.41]
+22:30:29.871796 memdb@flush committed F·1 T·21.462584ms
+22:30:29.872169 journal@remove removed @381
+22:30:30.548464 memdb@flush N·82 S·804KiB
+22:30:30.559870 memdb@flush created L0@407 N·82 S·632KiB ",v10717":"blo..ore,v10639"
+22:30:30.559904 version@stat F·[2 21] S·41MiB[1MiB 40MiB] Sc·[0.50 0.41]
+22:30:30.567874 memdb@flush committed F·1 T·19.268208ms
+22:30:30.568235 journal@remove removed @404
+22:30:31.253284 memdb@flush N·78 S·797KiB
+22:30:31.262869 memdb@flush created L0@409 N·78 S·636KiB ",v10794":"blo..ore,v10723"
+22:30:31.262902 version@stat F·[3 21] S·42MiB[1MiB 40MiB] Sc·[0.75 0.41]
+22:30:31.269888 memdb@flush committed F·1 T·16.578167ms
+22:30:31.270252 journal@remove removed @406
+22:30:31.923185 memdb@flush N·78 S·810KiB
+22:30:31.932921 memdb@flush created L0@411 N·78 S·640KiB ",v10871":"blo..ore,v10800"
+22:30:31.932967 version@stat F·[4 21] S·43MiB[2MiB 40MiB] Sc·[1.00 0.41]
+22:30:31.936896 memdb@flush committed F·1 T·13.683334ms
+22:30:31.937275 journal@remove removed @408
+22:30:31.937319 table@compaction L0·4 -> L1·21 S·43MiB Q·10878
+22:30:31.950252 table@build created L1@412 N·1696 S·2MiB ",v10871":"C:1125,v7893"
+22:30:31.970999 table@build created L1@413 N·137 S·2MiB "C:1126,v7900":"C:1249,v8761"
+22:30:31.981937 table@build created L1@414 N·130 S·2MiB "C:125,v879":"C:1366,v9580"
+22:30:32.000358 table@build created L1@415 N·127 S·2MiB "C:1367,v9587":"C:1480,v10378"
+22:30:32.015868 table@build created L1@416 N·434 S·2MiB "C:1481,v10385":"C:475,v3342"
+22:30:32.056872 table@build created L1@417 N·315 S·2MiB "C:476,v3349":"C:759,v5330"
+22:30:32.087859 table@build created L1@418 N·202 S·2MiB "C:76,v536":"C:940,v6598"
+22:30:32.114905 table@build created L1@419 N·1679 S·2MiB "C:941,v6605":"P:1057:0,v7409"
+22:30:32.136846 table@build created L1@420 N·135 S·2MiB "P:1058:0,v7416":"P:1179:0,v8263"
+22:30:32.158863 table@build created L1@421 N·131 S·2MiB "P:117:0,v815":"P:1297:0,v9089"
+22:30:32.183851 table@build created L1@422 N·123 S·2MiB "P:1298:0,v9096":"P:1407:0,v9859"
+22:30:32.223855 table@build created L1@423 N·120 S·2MiB "P:1408:0,v9866":"P:1515:0,v10615"
+22:30:32.249367 table@build created L1@424 N·475 S·2MiB "P:1516:0,v10622":"P:545:0,v3824"
+22:30:32.275834 table@build created L1@425 N·265 S·2MiB "P:546:0,v3831":"P:784:0,v5497"
+22:30:32.294789 table@build created L1@426 N·189 S·2MiB "P:785:0,v5504":"P:954:0,v6688"
+22:30:32.316919 table@build created L1@427 N·159 S·2MiB "P:955:0,v6695":"SC:1095,v7677"
+22:30:32.335916 table@build created L1@428 N·140 S·2MiB "SC:1096,v7684":"SC:1220,v8552"
+22:30:32.356889 table@build created L1@429 N·131 S·2MiB "SC:1221,v8559":"SC:1339,v9385"
+22:30:32.376994 table@build created L1@430 N·127 S·2MiB "SC:134,v936":"SC:1453,v10183"
+22:30:32.404986 table@build created L1@431 N·344 S·2MiB "SC:1454,v10190":"SC:367,v2573"
+22:30:32.433894 table@build created L1@432 N·621 S·2MiB "SC:368,v2580":"SC:926,v6494"
+22:30:32.444826 table@build created L1@433 N·81 S·933KiB "SC:927,v6501":"blo..ore,v10870"
+22:30:32.444892 version@stat F·[0 22] S·43MiB[0B 43MiB] Sc·[0.00 0.43]
+22:30:32.453907 table@compaction committed F-3 S-1KiB Ke·0 D·90 T·516.574834ms
+22:30:32.454218 table@remove removed @411
+22:30:32.454309 table@remove removed @409
+22:30:32.454418 table@remove removed @407
+22:30:32.454502 table@remove removed @405
+22:30:32.454675 table@remove removed @383
+22:30:32.454848 table@remove removed @384
+22:30:32.454980 table@remove removed @385
+22:30:32.455131 table@remove removed @386
+22:30:32.455271 table@remove removed @387
+22:30:32.455453 table@remove removed @388
+22:30:32.455593 table@remove removed @389
+22:30:32.455746 table@remove removed @390
+22:30:32.455882 table@remove removed @391
+22:30:32.455999 table@remove removed @392
+22:30:32.456141 table@remove removed @393
+22:30:32.456263 table@remove removed @394
+22:30:32.456406 table@remove removed @395
+22:30:32.456546 table@remove removed @396
+22:30:32.456714 table@remove removed @397
+22:30:32.456848 table@remove removed @398
+22:30:32.456993 table@remove removed @399
+22:30:32.457132 table@remove removed @400
+22:30:32.457259 table@remove removed @401
+22:30:32.457463 table@remove removed @402
+22:30:32.457557 table@remove removed @403
+22:30:32.753141 memdb@flush N·82 S·798KiB
+22:30:32.763811 memdb@flush created L0@435 N·82 S·636KiB ",v10955":"blo..ore,v10877"
+22:30:32.763848 version@stat F·[1 22] S·43MiB[636KiB 43MiB] Sc·[0.25 0.43]
+22:30:32.771798 memdb@flush committed F·1 T·18.543083ms
+22:30:32.772121 journal@remove removed @410
+22:30:33.454671 memdb@flush N·78 S·797KiB
+22:30:33.463909 memdb@flush created L0@437 N·78 S·637KiB ",v11032":"blo..ore,v10961"
+22:30:33.464448 version@stat F·[2 22] S·44MiB[1MiB 43MiB] Sc·[0.50 0.43]
+22:30:33.476833 memdb@flush committed F·1 T·22.138708ms
+22:30:33.477622 journal@remove removed @434
+22:30:34.121309 memdb@flush N·78 S·803KiB
+22:30:34.134875 memdb@flush created L0@439 N·78 S·641KiB ",v11109":"blo..ore,v11038"
+22:30:34.134926 version@stat F·[3 22] S·44MiB[1MiB 43MiB] Sc·[0.75 0.43]
+22:30:34.142958 memdb@flush committed F·1 T·21.612209ms
+22:30:34.143370 journal@remove removed @436
+22:30:34.883641 memdb@flush N·82 S·810KiB
+22:30:34.891833 memdb@flush created L0@441 N·82 S·646KiB ",v11193":"blo..ore,v11115"
+22:30:34.892506 version@stat F·[4 22] S·45MiB[2MiB 43MiB] Sc·[1.00 0.43]
+22:30:34.903799 memdb@flush committed F·1 T·20.025625ms
+22:30:34.904170 journal@remove removed @438
+22:30:34.904208 table@compaction L0·4 -> L1·22 S·45MiB Q·11200
+22:30:34.915921 table@build created L1@442 N·1742 S·2MiB ",v11193":"C:1125,v7893"
+22:30:34.933750 table@build created L1@443 N·137 S·2MiB "C:1126,v7900":"C:1249,v8761"
+22:30:34.949468 table@build created L1@444 N·130 S·2MiB "C:125,v879":"C:1366,v9580"
+22:30:34.977805 table@build created L1@445 N·127 S·2MiB "C:1367,v9587":"C:1480,v10378"
+22:30:34.991895 table@build created L1@446 N·123 S·2MiB "C:1481,v10385":"C:1591,v11155"
+22:30:35.015908 table@build created L1@447 N·573 S·2MiB "C:1592,v11162":"C:670,v4707"
+22:30:35.052779 table@build created L1@448 N·224 S·2MiB "C:671,v4714":"C:872,v6122"
+22:30:35.065699 table@build created L1@449 N·1741 S·2MiB "C:873,v6129":"P:1002:0,v7024"
+22:30:35.099115 table@build created L1@450 N·142 S·2MiB "P:1003:0,v7031":"P:1130:0,v7920"
+22:30:35.115886 table@build created L1@451 N·133 S·2MiB "P:1131:0,v7927":"P:1250:0,v8760"
+22:30:35.127906 table@build created L1@452 N·125 S·2MiB "P:1251:0,v8767":"P:1363:0,v9551"
+22:30:35.159874 table@build created L1@453 N·121 S·2MiB "P:1364:0,v9558":"P:1472:0,v10314"
+22:30:35.180841 table@build created L1@454 N·120 S·2MiB "P:1473:0,v10321":"P:1580:0,v11070"
+22:30:35.201868 table@build created L1@455 N·512 S·2MiB "P:1581:0,v11077":"P:602:0,v4223"
+22:30:35.219794 table@build created L1@456 N·240 S·2MiB "P:603:0,v4230":"P:819:0,v5743"
+22:30:35.237805 table@build created L1@457 N·182 S·2MiB "P:81:0,v563":"P:983:0,v6891"
+22:30:35.251850 table@build created L1@458 N·154 S·2MiB "P:984:0,v6898":"SC:1119,v7845"
+22:30:35.270637 table@build created L1@459 N·138 S·2MiB "SC:112,v782":"SC:1243,v8713"
+22:30:35.282909 table@build created L1@460 N·130 S·2MiB "SC:1244,v8720":"SC:1360,v9532"
+22:30:35.301867 table@build created L1@461 N·126 S·2MiB "SC:1361,v9539":"SC:1474,v10330"
+22:30:35.313814 table@build created L1@462 N·123 S·2MiB "SC:1475,v10337":"SC:1585,v11107"
+22:30:35.334853 table@build created L1@463 N·822 S·2MiB "SC:1586,v11114":"SC:888,v6228"
+22:30:35.344840 table@build created L1@464 N·124 S·1MiB "SC:889,v6235":"blo..ore,v11192"
+22:30:35.345218 version@stat F·[0 23] S·45MiB[0B 45MiB] Sc·[0.00 0.46]
+22:30:35.357808 table@compaction committed F-3 S-2KiB Ke·0 D·92 T·453.580291ms
+22:30:35.358054 table@remove removed @441
+22:30:35.358132 table@remove removed @439
+22:30:35.358209 table@remove removed @437
+22:30:35.358272 table@remove removed @435
+22:30:35.358399 table@remove removed @412
+22:30:35.358492 table@remove removed @413
+22:30:35.358592 table@remove removed @414
+22:30:35.358701 table@remove removed @415
+22:30:35.358795 table@remove removed @416
+22:30:35.358887 table@remove removed @417
+22:30:35.359002 table@remove removed @418
+22:30:35.359304 table@remove removed @419
+22:30:35.359425 table@remove removed @420
+22:30:35.359566 table@remove removed @421
+22:30:35.359697 table@remove removed @422
+22:30:35.359821 table@remove removed @423
+22:30:35.359950 table@remove removed @424
+22:30:35.360089 table@remove removed @425
+22:30:35.360201 table@remove removed @426
+22:30:35.360315 table@remove removed @427
+22:30:35.360438 table@remove removed @428
+22:30:35.360545 table@remove removed @429
+22:30:35.360657 table@remove removed @430
+22:30:35.360772 table@remove removed @431
+22:30:35.360883 table@remove removed @432
+22:30:35.360961 table@remove removed @433
+22:30:35.592427 memdb@flush N·78 S·802KiB
+22:30:35.602791 memdb@flush created L0@466 N·78 S·644KiB ",v11270":"blo..ore,v11199"
+22:30:35.602827 version@stat F·[1 23] S·46MiB[644KiB 45MiB] Sc·[0.25 0.46]
+22:30:35.609869 memdb@flush committed F·1 T·17.415542ms
+22:30:35.610209 journal@remove removed @440
+22:30:36.292507 memdb@flush N·78 S·805KiB
+22:30:36.304786 memdb@flush created L0@468 N·78 S·642KiB ",v11347":"blo..ore,v11276"
+22:30:36.304826 version@stat F·[2 23] S·46MiB[1MiB 45MiB] Sc·[0.50 0.46]
+22:30:36.312776 memdb@flush committed F·1 T·20.135792ms
+22:30:36.313190 journal@remove removed @465
+22:30:36.979411 memdb@flush N·82 S·804KiB
+22:30:36.989780 memdb@flush created L0@470 N·82 S·642KiB ",v11431":"blo..ore,v11353"
+22:30:36.989818 version@stat F·[3 23] S·47MiB[1MiB 45MiB] Sc·[0.75 0.46]
+22:30:36.992780 memdb@flush committed F·1 T·13.336166ms
+22:30:36.993144 journal@remove removed @467
+22:30:37.729412 memdb@flush N·78 S·808KiB
+22:30:37.742681 memdb@flush created L0@472 N·78 S·646KiB ",v11508":"blo..ore,v11437"
+22:30:37.742721 version@stat F·[4 23] S·48MiB[2MiB 45MiB] Sc·[1.00 0.46]
+22:30:37.748745 memdb@flush committed F·1 T·19.173041ms
+22:30:37.749120 journal@remove removed @469
+22:30:37.749200 table@compaction L0·4 -> L1·23 S·48MiB Q·11515
+22:30:37.771840 table@build created L1@473 N·1787 S·2MiB ",v11508":"C:1125,v7893"
+22:30:37.827219 table@build created L1@474 N·137 S·2MiB "C:1126,v7900":"C:1249,v8761"
+22:30:37.868816 table@build created L1@475 N·130 S·2MiB "C:125,v879":"C:1366,v9580"
+22:30:37.880722 table@build created L1@476 N·127 S·2MiB "C:1367,v9587":"C:1480,v10378"
+22:30:37.906793 table@build created L1@477 N·123 S·2MiB "C:1481,v10385":"C:1591,v11155"
+22:30:37.923759 table@build created L1@478 N·481 S·2MiB "C:1592,v11162":"C:547,v3846"
+22:30:37.947706 table@build created L1@479 N·277 S·2MiB "C:548,v3853":"C:797,v5596"
+22:30:37.968945 table@build created L1@480 N·194 S·2MiB "C:798,v5603":"C:971,v6815"
+22:30:37.989005 table@build created L1@481 N·1760 S·2MiB "C:972,v6822":"P:1079:0,v7563"
+22:30:38.017756 table@build created L1@482 N·137 S·2MiB "P:107:0,v745":"P:1201:0,v8417"
+22:30:38.040143 table@build created L1@483 N·128 S·2MiB "P:1202:0,v8424":"P:1317:0,v9229"
+22:30:38.061738 table@build created L1@484 N·122 S·2MiB "P:1318:0,v9236":"P:1427:0,v9999"
+22:30:38.095941 table@build created L1@485 N·120 S·2MiB "P:1428:0,v10006":"P:1535:0,v10755"
+22:30:38.117938 table@build created L1@486 N·119 S·2MiB "P:1536:0,v10762":"P:1642:0,v11504"
+22:30:38.159271 table@build created L1@487 N·536 S·2MiB "P:1643:0,v11511":"P:645:0,v4524"
+22:30:38.185833 table@build created L1@488 N·223 S·2MiB "P:646:0,v4531":"P:846:0,v5932"
+22:30:38.208713 table@build created L1@489 N·182 S·2MiB "P:847:0,v5939":"SC:1007,v7061"
+22:30:38.236750 table@build created L1@490 N·146 S·2MiB "SC:1008,v7068":"SC:1139,v7985"
+22:30:38.253625 table@build created L1@491 N·137 S·2MiB "SC:114,v796":"SC:1262,v8846"
+22:30:38.272767 table@build created L1@492 N·129 S·2MiB "SC:1263,v8853":"SC:1379,v9665"
+22:30:38.291159 table@build created L1@493 N·126 S·2MiB "SC:138,v964":"SC:1492,v10456"
+22:30:38.309682 table@build created L1@494 N·123 S·2MiB "SC:1493,v10463":"SC:1602,v11226"
+22:30:38.322826 table@build created L1@495 N·798 S·2MiB "SC:1603,v11233":"SC:843,v5913"
+22:30:38.345791 table@build created L1@496 N·173 S·1MiB "SC:844,v5920":"blo..ore,v11507"
+22:30:38.345874 version@stat F·[0 24] S·48MiB[0B 48MiB] Sc·[0.00 0.48]
+22:30:38.352711 table@compaction committed F-3 S-406B Ke·0 D·90 T·603.500625ms
+22:30:38.353523 table@remove removed @472
+22:30:38.355757 table@remove removed @470
+22:30:38.355829 table@remove removed @468
+22:30:38.356063 table@remove removed @466
+22:30:38.356337 table@remove removed @442
+22:30:38.356590 table@remove removed @443
+22:30:38.356737 table@remove removed @444
+22:30:38.357122 table@remove removed @445
+22:30:38.357251 table@remove removed @446
+22:30:38.357405 table@remove removed @447
+22:30:38.357563 table@remove removed @448
+22:30:38.357707 table@remove removed @449
+22:30:38.357856 table@remove removed @450
+22:30:38.357977 table@remove removed @451
+22:30:38.358109 table@remove removed @452
+22:30:38.358238 table@remove removed @453
+22:30:38.358369 table@remove removed @454
+22:30:38.358509 table@remove removed @455
+22:30:38.358653 table@remove removed @456
+22:30:38.358919 table@remove removed @457
+22:30:38.359062 table@remove removed @458
+22:30:38.359199 table@remove removed @459
+22:30:38.359330 table@remove removed @460
+22:30:38.359476 table@remove removed @461
+22:30:38.359614 table@remove removed @462
+22:30:38.359753 table@remove removed @463
+22:30:38.359857 table@remove removed @464
+22:30:38.591610 memdb@flush N·78 S·808KiB
+22:30:38.610746 memdb@flush created L0@498 N·78 S·648KiB ",v11585":"blo..ore,v11514"
+22:30:38.610900 version@stat F·[1 24] S·48MiB[648KiB 48MiB] Sc·[0.25 0.48]
+22:30:38.618836 memdb@flush committed F·1 T·27.187209ms
+22:30:38.619230 journal@remove removed @471
+22:30:39.330130 memdb@flush N·82 S·804KiB
+22:30:39.350697 memdb@flush created L0@500 N·82 S·647KiB ",v11669":"blo..ore,v11591"
+22:30:39.350740 version@stat F·[2 24] S·49MiB[1MiB 48MiB] Sc·[0.50 0.48]
+22:30:39.357659 memdb@flush committed F·1 T·27.503334ms
+22:30:39.358090 journal@remove removed @497
+22:30:40.120642 memdb@flush N·78 S·813KiB
+22:30:40.138747 memdb@flush created L0@502 N·78 S·650KiB ",v11746":"blo..ore,v11675"
+22:30:40.138901 version@stat F·[3 24] S·50MiB[1MiB 48MiB] Sc·[0.75 0.48]
+22:30:40.148929 memdb@flush committed F·1 T·27.898959ms
+22:30:40.149720 journal@remove removed @499
+22:30:40.859876 memdb@flush N·78 S·814KiB
+22:30:40.873715 memdb@flush created L0@504 N·78 S·645KiB ",v11823":"blo..ore,v11752"
+22:30:40.873751 version@stat F·[4 24] S·50MiB[2MiB 48MiB] Sc·[1.00 0.48]
+22:30:40.881748 memdb@flush committed F·1 T·21.844667ms
+22:30:40.882134 journal@remove removed @501
+22:30:40.882171 table@compaction L0·4 -> L1·24 S·50MiB Q·11830
+22:30:40.899756 table@build created L1@505 N·1832 S·2MiB ",v11823":"C:1125,v7893"
+22:30:40.921734 table@build created L1@506 N·137 S·2MiB "C:1126,v7900":"C:1249,v8761"
+22:30:40.937749 table@build created L1@507 N·130 S·2MiB "C:125,v879":"C:1366,v9580"
+22:30:40.958728 table@build created L1@508 N·127 S·2MiB "C:1367,v9587":"C:1480,v10378"
+22:30:40.983926 table@build created L1@509 N·123 S·2MiB "C:1481,v10385":"C:1591,v11155"
+22:30:41.011611 table@build created L1@510 N·276 S·2MiB "C:1592,v11162":"C:320,v2247"
+22:30:41.039737 table@build created L1@511 N·435 S·2MiB "C:321,v2254":"C:712,v5001"
+22:30:41.059785 table@build created L1@512 N·212 S·2MiB "C:713,v5008":"C:903,v6339"
+22:30:41.084680 table@build created L1@513 N·1821 S·2MiB "C:904,v6346":"P:1025:0,v7185"
+22:30:41.106784 table@build created L1@514 N·139 S·2MiB "P:1026:0,v7192":"P:1150:0,v8060"
+22:30:41.124755 table@build created L1@515 N·133 S·2MiB "P:1151:0,v8067":"P:1270:0,v8900"
+22:30:41.147776 table@build created L1@516 N·124 S·2MiB "P:1271:0,v8907":"P:1382:0,v9684"
+22:30:41.177756 table@build created L1@517 N·121 S·2MiB "P:1383:0,v9691":"P:1491:0,v10447"
+22:30:41.189704 table@build created L1@518 N·119 S·2MiB "P:1492:0,v10454":"P:1599:0,v11203"
+22:30:41.214711 table@build created L1@519 N·250 S·2MiB "P:159:0,v1109":"P:302:0,v2113"
+22:30:41.236714 table@build created L1@520 N·426 S·2MiB "P:303:0,v2120":"P:687:0,v4818"
+22:30:41.255670 table@build created L1@521 N·209 S·2MiB "P:688:0,v4825":"P:875:0,v6135"
+22:30:41.271807 table@build created L1@522 N·177 S·2MiB "P:876:0,v6142":"SC:1031,v7229"
+22:30:41.292870 table@build created L1@523 N·141 S·2MiB "SC:1032,v7236":"SC:1159,v8125"
+22:30:41.335674 table@build created L1@524 N·137 S·2MiB "SC:116,v810":"SC:1282,v8986"
+22:30:41.354641 table@build created L1@525 N·128 S·2MiB "SC:1283,v8993":"SC:1398,v9798"
+22:30:41.380718 table@build created L1@526 N·127 S·2MiB "SC:1399,v9805":"SC:1511,v10589"
+22:30:41.393106 table@build created L1@527 N·122 S·2MiB "SC:1512,v10596":"SC:1621,v11359"
+22:30:41.420701 table@build created L1@528 N·708 S·2MiB "SC:1622,v11366":"SC:740,v5191"
+22:30:41.441832 table@build created L1@529 N·258 S·2MiB "SC:741,v5198":"SC:973,v6823"
+22:30:41.448065 table@build created L1@530 N·29 S·336KiB "SC:974,v6830":"blo..ore,v11822"
+22:30:41.448257 version@stat F·[0 26] S·50MiB[0B 50MiB] Sc·[0.00 0.51]
+22:30:41.456752 table@compaction committed F-2 S-525B Ke·0 D·90 T·574.561583ms
+22:30:41.457031 table@remove removed @504
+22:30:41.457111 table@remove removed @502
+22:30:41.457365 table@remove removed @500
+22:30:41.457500 table@remove removed @498
+22:30:41.457664 table@remove removed @473
+22:30:41.457844 table@remove removed @474
+22:30:41.458381 table@remove removed @475
+22:30:41.458533 table@remove removed @476
+22:30:41.458682 table@remove removed @477
+22:30:41.462750 table@remove removed @478
+22:30:41.463061 table@remove removed @479
+22:30:41.463229 table@remove removed @480
+22:30:41.463382 table@remove removed @481
+22:30:41.463534 table@remove removed @482
+22:30:41.463668 table@remove removed @483
+22:30:41.463784 table@remove removed @484
+22:30:41.463939 table@remove removed @485
+22:30:41.464132 table@remove removed @486
+22:30:41.464279 table@remove removed @487
+22:30:41.464402 table@remove removed @488
+22:30:41.464578 table@remove removed @489
+22:30:41.464699 table@remove removed @490
+22:30:41.464854 table@remove removed @491
+22:30:41.464981 table@remove removed @492
+22:30:41.465101 table@remove removed @493
+22:30:41.465249 table@remove removed @494
+22:30:41.465376 table@remove removed @495
+22:30:41.465478 table@remove removed @496
+22:30:41.665913 memdb@flush N·76 S·796KiB
+22:30:41.678736 memdb@flush created L0@532 N·76 S·615KiB ",v11900":"blo..ore,v11829"
+22:30:41.678790 version@stat F·[1 26] S·51MiB[615KiB 50MiB] Sc·[0.25 0.51]
+22:30:41.686731 memdb@flush committed F·1 T·20.777125ms
+22:30:41.687076 journal@remove removed @503
+22:30:42.321200 memdb@flush N·76 S·799KiB
+22:30:42.332748 memdb@flush created L0@534 N·76 S·608KiB ",v11977":"blo..ore,v11906"
+22:30:42.332985 version@stat F·[2 26] S·51MiB[1MiB 50MiB] Sc·[0.50 0.51]
+22:30:42.340720 memdb@flush committed F·1 T·19.396501ms
+22:30:42.341619 journal@remove removed @531
+22:30:42.922182 memdb@flush N·72 S·800KiB
+22:30:42.933634 memdb@flush created L0@536 N·72 S·609KiB ",v12047":"blo..ore,v11983"
+22:30:42.933668 version@stat F·[3 26] S·52MiB[1MiB 50MiB] Sc·[0.75 0.51]
+22:30:42.940680 memdb@flush committed F·1 T·18.45675ms
+22:30:42.941076 journal@remove removed @533
+22:30:43.618899 memdb@flush N·76 S·796KiB
+22:30:43.630721 memdb@flush created L0@538 N·76 S·607KiB ",v12124":"blo..ore,v12053"
+22:30:43.630836 version@stat F·[4 26] S·53MiB[2MiB 50MiB] Sc·[1.00 0.51]
+22:30:43.637680 memdb@flush committed F·1 T·18.57725ms
+22:30:43.638028 journal@remove removed @535
+22:30:43.638063 table@compaction L0·4 -> L1·26 S·53MiB Q·12131
+22:30:43.665955 table@build created L1@539 N·1874 S·2MiB ",v12124":"C:1124,v7886"
+22:30:43.681721 table@build created L1@540 N·137 S·2MiB "C:1125,v7893":"C:1248,v8754"
+22:30:43.700658 table@build created L1@541 N·130 S·2MiB "C:1249,v8761":"C:1365,v9573"
+22:30:43.716738 table@build created L1@542 N·126 S·2MiB "C:1366,v9580":"C:1479,v10371"
+22:30:43.735693 table@build created L1@543 N·124 S·2MiB "C:148,v1040":"C:1590,v11148"
+22:30:43.747765 table@build created L1@544 N·120 S·2MiB "C:1591,v11155":"C:1699,v11911"
+22:30:43.772603 table@build created L1@545 N·518 S·2MiB "C:17,v123":"C:608,v4273"
+22:30:43.803726 table@build created L1@546 N·250 S·2MiB "C:609,v4280":"C:833,v5849"
+22:30:43.815079 table@build created L1@547 N·273 S·2MiB "C:834,v5856":"H:1079,v7561"
+22:30:43.842720 table@build created L1@548 N·1754 S·2MiB "H:108,v750":"P:1101:0,v7717"
+22:30:43.920714 table@build created L1@549 N·134 S·2MiB "P:1102:0,v7724":"P:1222:0,v8564"
+22:30:43.946711 table@build created L1@550 N·126 S·2MiB "P:1223:0,v8571":"P:1336:0,v9362"
+22:30:43.965724 table@build created L1@551 N·122 S·2MiB "P:1337:0,v9369":"P:1446:0,v10132"
+22:30:43.980616 table@build created L1@552 N·120 S·2MiB "P:1447:0,v10139":"P:1554:0,v10888"
+22:30:43.991673 table@build created L1@553 N·119 S·2MiB "P:1555:0,v10895":"P:1661:0,v11637"
+22:30:44.028592 table@build created L1@554 N·345 S·2MiB "P:1662:0,v11644":"P:412:0,v2887"
+22:30:44.047718 table@build created L1@555 N·347 S·2MiB "P:413:0,v2894":"P:725:0,v5084"
+22:30:44.062338 table@build created L1@556 N·200 S·2MiB "P:726:0,v5091":"P:905:0,v6345"
+22:30:44.081694 table@build created L1@557 N·170 S·2MiB "P:906:0,v6352":"SC:1056,v7404"
+22:30:44.099709 table@build created L1@558 N·140 S·2MiB "SC:1057,v7411":"SC:1182,v8286"
+22:30:44.111702 table@build created L1@559 N·135 S·2MiB "SC:1183,v8293":"SC:1303,v9133"
+22:30:44.138724 table@build created L1@560 N·127 S·2MiB "SC:1304,v9140":"SC:1418,v9938"
+22:30:44.157720 table@build created L1@561 N·125 S·2MiB "SC:1419,v9945":"SC:1530,v10722"
+22:30:44.175739 table@build created L1@562 N·122 S·2MiB "SC:1531,v10729":"SC:1640,v11492"
+22:30:44.198763 table@build created L1@563 N·349 S·2MiB "SC:1641,v11499":"SC:398,v2791"
+22:30:44.215834 table@build created L1@564 N·600 S·2MiB "SC:399,v2798":"SC:938,v6578"
+22:30:44.223746 table@build created L1@565 N·68 S·782KiB "SC:939,v6585":"blo..ore,v12123"
+22:30:44.223906 version@stat F·[0 27] S·53MiB[0B 53MiB] Sc·[0.00 0.53]
+22:30:44.226719 table@compaction committed F-3 S-2KiB Ke·0 D·86 T·588.638583ms
+22:30:44.226922 table@remove removed @538
+22:30:44.227000 table@remove removed @536
+22:30:44.227079 table@remove removed @534
+22:30:44.227150 table@remove removed @532
+22:30:44.227263 table@remove removed @505
+22:30:44.227408 table@remove removed @506
+22:30:44.227530 table@remove removed @507
+22:30:44.227672 table@remove removed @508
+22:30:44.227799 table@remove removed @509
+22:30:44.227940 table@remove removed @510
+22:30:44.228072 table@remove removed @511
+22:30:44.228233 table@remove removed @512
+22:30:44.228389 table@remove removed @513
+22:30:44.228533 table@remove removed @514
+22:30:44.228671 table@remove removed @515
+22:30:44.228811 table@remove removed @516
+22:30:44.228974 table@remove removed @517
+22:30:44.229132 table@remove removed @518
+22:30:44.229269 table@remove removed @519
+22:30:44.229414 table@remove removed @520
+22:30:44.229561 table@remove removed @521
+22:30:44.229688 table@remove removed @522
+22:30:44.229808 table@remove removed @523
+22:30:44.229934 table@remove removed @524
+22:30:44.230070 table@remove removed @525
+22:30:44.230498 table@remove removed @526
+22:30:44.230648 table@remove removed @527
+22:30:44.230783 table@remove removed @528
+22:30:44.230931 table@remove removed @529
+22:30:44.231133 table@remove removed @530
+22:30:44.389949 memdb@flush N·77 S·816KiB
+22:30:44.401615 memdb@flush created L0@567 N·77 S·625KiB ",v12201":"blo..ore,v12130"
+22:30:44.401649 version@stat F·[1 27] S·53MiB[625KiB 53MiB] Sc·[0.25 0.53]
+22:30:44.408657 memdb@flush committed F·1 T·18.678584ms
+22:30:44.409038 journal@remove removed @537
+22:30:45.143533 memdb@flush N·76 S·798KiB
+22:30:45.151633 memdb@flush created L0@569 N·76 S·612KiB ",v12278":"blo..ore,v12207"
+22:30:45.152023 version@stat F·[2 27] S·54MiB[1MiB 53MiB] Sc·[0.50 0.53]
+22:30:45.163616 memdb@flush committed F·1 T·19.927083ms
+22:30:45.163970 journal@remove removed @566
+22:30:45.919077 memdb@flush N·72 S·809KiB
+22:30:45.931646 memdb@flush created L0@571 N·72 S·619KiB ",v12348":"blo..ore,v12284"
+22:30:45.931681 version@stat F·[3 27] S·54MiB[1MiB 53MiB] Sc·[0.75 0.53]
+22:30:45.940621 memdb@flush committed F·1 T·21.511ms
+22:30:45.941103 journal@remove removed @568
+22:30:46.731522 memdb@flush N·75 S·793KiB
+22:30:46.739754 memdb@flush created L0@573 N·75 S·605KiB ",v12425":"blo..ore,v12354"
+22:30:46.740138 version@stat F·[4 27] S·55MiB[2MiB 53MiB] Sc·[1.00 0.53]
+22:30:46.752634 memdb@flush committed F·1 T·20.956666ms
+22:30:46.753048 journal@remove removed @570
+22:30:46.753088 table@compaction L0·4 -> L1·27 S·55MiB Q·12432
+22:30:46.770661 table@build created L1@574 N·1917 S·2MiB ",v12425":"C:1124,v7886"
+22:30:46.793636 table@build created L1@575 N·137 S·2MiB "C:1125,v7893":"C:1248,v8754"
+22:30:46.807462 table@build created L1@576 N·130 S·2MiB "C:1249,v8761":"C:1365,v9573"
+22:30:46.826600 table@build created L1@577 N·126 S·2MiB "C:1366,v9580":"C:1479,v10371"
+22:30:46.842635 table@build created L1@578 N·124 S·2MiB "C:148,v1040":"C:1590,v11148"
+22:30:46.856009 table@build created L1@579 N·120 S·2MiB "C:1591,v11155":"C:1699,v11911"
+22:30:46.902746 table@build created L1@580 N·404 S·2MiB "C:17,v123":"C:467,v3286"
+22:30:46.926501 table@build created L1@581 N·322 S·2MiB "C:468,v3293":"C:757,v5316"
+22:30:46.949148 table@build created L1@582 N·202 S·2MiB "C:758,v5323":"C:939,v6591"
+22:30:46.972420 table@build created L1@583 N·1898 S·2MiB "C:94,v662":"P:1052:0,v7374"
+22:30:46.998498 table@build created L1@584 N·136 S·2MiB "P:1053:0,v7381":"P:1175:0,v8235"
+22:30:47.016640 table@build created L1@585 N·131 S·2MiB "P:1176:0,v8242":"P:1293:0,v9061"
+22:30:47.037721 table@build created L1@586 N·124 S·2MiB "P:1294:0,v9068":"P:1404:0,v9838"
+22:30:47.074887 table@build created L1@587 N·120 S·2MiB "P:1405:0,v9845":"P:1512:0,v10594"
+22:30:47.097787 table@build created L1@588 N·118 S·2MiB "P:1513:0,v10601":"P:1619:0,v11343"
+22:30:47.125740 table@build created L1@589 N·117 S·2MiB "P:161:0,v1123":"P:1724:0,v12078"
+22:30:47.147543 table@build created L1@590 N·427 S·2MiB "P:1725:0,v12085":"P:511:0,v3586"
+22:30:47.174741 table@build created L1@591 N·280 S·2MiB "P:512:0,v3593":"P:764:0,v5357"
+22:30:47.203799 table@build created L1@592 N·192 S·2MiB "P:765:0,v5364":"P:937:0,v6569"
+22:30:47.234622 table@build created L1@593 N·164 S·2MiB "P:938:0,v6576":"SC:1082,v7586"
+22:30:47.252344 table@build created L1@594 N·139 S·2MiB "SC:1083,v7593":"SC:1207,v8461"
+22:30:47.274820 table@build created L1@595 N·133 S·2MiB "SC:1208,v8468":"SC:1327,v9301"
+22:30:47.286605 table@build created L1@596 N·128 S·2MiB "SC:1328,v9308":"SC:1442,v10106"
+22:30:47.298675 table@build created L1@597 N·124 S·2MiB "SC:1443,v10113":"SC:1554,v10890"
+22:30:47.321777 table@build created L1@598 N·121 S·2MiB "SC:1555,v10897":"SC:1663,v11653"
+22:30:47.346713 table@build created L1@599 N·120 S·2MiB "SC:1664,v11660":"SC:1771,v12409"
+22:30:47.371646 table@build created L1@600 N·813 S·2MiB "SC:1772,v12416":"SC:907,v6361"
+22:30:47.380646 table@build created L1@601 N·102 S·1MiB "SC:908,v6368":"blo..ore,v12424"
+22:30:47.380715 version@stat F·[0 28] S·55MiB[0B 55MiB] Sc·[0.00 0.55]
+22:30:47.387592 table@compaction committed F-3 S-2KiB Ke·0 D·86 T·634.497583ms
+22:30:47.388206 table@remove removed @573
+22:30:47.388315 table@remove removed @571
+22:30:47.391872 table@remove removed @569
+22:30:47.391994 table@remove removed @567
+22:30:47.392151 table@remove removed @539
+22:30:47.392303 table@remove removed @540
+22:30:47.392429 table@remove removed @541
+22:30:47.392569 table@remove removed @542
+22:30:47.392732 table@remove removed @543
+22:30:47.392864 table@remove removed @544
+22:30:47.393006 table@remove removed @545
+22:30:47.393300 table@remove removed @546
+22:30:47.393439 table@remove removed @547
+22:30:47.393575 table@remove removed @548
+22:30:47.393721 table@remove removed @549
+22:30:47.393849 table@remove removed @550
+22:30:47.393978 table@remove removed @551
+22:30:47.394113 table@remove removed @552
+22:30:47.394230 table@remove removed @553
+22:30:47.394350 table@remove removed @554
+22:30:47.394487 table@remove removed @555
+22:30:47.394629 table@remove removed @556
+22:30:47.394777 table@remove removed @557
+22:30:47.394921 table@remove removed @558
+22:30:47.395062 table@remove removed @559
+22:30:47.395184 table@remove removed @560
+22:30:47.395313 table@remove removed @561
+22:30:47.395452 table@remove removed @562
+22:30:47.395597 table@remove removed @563
+22:30:47.395788 table@remove removed @564
+22:30:47.395872 table@remove removed @565
+=============== May 14, 2024 (IST) ===============
+22:59:20.384433 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:59:20.385181 version@stat F·[0 28] S·55MiB[0B 55MiB] Sc·[0.00 0.55]
+22:59:20.385199 db@open opening
+22:59:20.385289 journal@recovery F·1
+22:59:20.385316 journal@recovery recovering @572
+22:59:20.392399 memdb@flush created L0@602 N·61 S·537KiB ",v12488":"blo..ore,v12431"
+22:59:20.392533 version@stat F·[1 28] S·55MiB[537KiB 55MiB] Sc·[0.25 0.55]
+22:59:20.413298 db@janitor F·32 G·1
+22:59:20.413307 db@janitor removing table-110
+22:59:20.413430 db@open done T·28.223792ms
+22:59:28.752561 memdb@flush N·73 S·817KiB
+22:59:28.764460 memdb@flush created L0@606 N·73 S·623KiB ",v12559":"blo..ore,v12495"
+22:59:28.764556 version@stat F·[2 28] S·56MiB[1MiB 55MiB] Sc·[0.50 0.55]
+22:59:28.768528 memdb@flush committed F·1 T·15.781417ms
+22:59:28.768883 journal@remove removed @603
+22:59:30.308896 memdb@flush N·76 S·798KiB
+22:59:30.320810 memdb@flush created L0@608 N·76 S·610KiB ",v12636":"blo..ore,v12565"
+22:59:30.320872 version@stat F·[3 28] S·57MiB[1MiB 55MiB] Sc·[0.75 0.55]
+22:59:30.323734 memdb@flush committed F·1 T·14.795708ms
+22:59:30.324029 journal@remove removed @605
+22:59:30.986400 memdb@flush N·72 S·805KiB
+22:59:30.998614 memdb@flush created L0@610 N·72 S·615KiB ",v12706":"blo..ore,v12642"
+22:59:30.998652 version@stat F·[4 28] S·57MiB[2MiB 55MiB] Sc·[1.00 0.55]
+22:59:31.005599 memdb@flush committed F·1 T·19.169333ms
+22:59:31.006005 journal@remove removed @607
+22:59:31.006050 table@compaction L0·4 -> L1·28 S·57MiB Q·12713
+22:59:31.018585 table@build created L1@611 N·1957 S·2MiB ",v12706":"C:1124,v7886"
+22:59:31.039581 table@build created L1@612 N·137 S·2MiB "C:1125,v7893":"C:1248,v8754"
+22:59:31.075509 table@build created L1@613 N·130 S·2MiB "C:1249,v8761":"C:1365,v9573"
+22:59:31.090723 table@build created L1@614 N·126 S·2MiB "C:1366,v9580":"C:1479,v10371"
+22:59:31.101685 table@build created L1@615 N·124 S·2MiB "C:148,v1040":"C:1590,v11148"
+22:59:31.131603 table@build created L1@616 N·120 S·2MiB "C:1591,v11155":"C:1699,v11911"
+22:59:31.157622 table@build created L1@617 N·121 S·2MiB "C:17,v123":"C:1807,v12668"
+22:59:31.171739 table@build created L1@618 N·554 S·2MiB "C:1808,v12675":"C:674,v4735"
+22:59:31.200609 table@build created L1@619 N·223 S·2MiB "C:675,v4742":"C:875,v6143"
+22:59:31.219045 table@build created L1@620 N·1952 S·2MiB "C:876,v6150":"P:1000:0,v7010"
+22:59:31.247624 table@build created L1@621 N·141 S·2MiB "P:1001:0,v7017":"P:1128:0,v7906"
+22:59:31.260781 table@build created L1@622 N·134 S·2MiB "P:1129:0,v7913":"P:1249:0,v8753"
+22:59:31.279575 table@build created L1@623 N·126 S·2MiB "P:124:0,v864":"P:1362:0,v9544"
+22:59:31.303647 table@build created L1@624 N·121 S·2MiB "P:1363:0,v9551":"P:1471:0,v10307"
+22:59:31.319640 table@build created L1@625 N·119 S·2MiB "P:1472:0,v10314":"P:1579:0,v11063"
+22:59:31.332582 table@build created L1@626 N·118 S·2MiB "P:157:0,v1095":"P:1685:0,v11805"
+22:59:31.353282 table@build created L1@627 N·113 S·2MiB "P:1686:0,v11812":"P:1787:0,v12520"
+22:59:31.370563 table@build created L1@628 N·476 S·2MiB "P:1788:0,v12527":"P:581:0,v4076"
+22:59:31.382622 table@build created L1@629 N·250 S·2MiB "P:582:0,v4083":"P:806:0,v5652"
+22:59:31.399436 table@build created L1@630 N·184 S·2MiB "P:807:0,v5659":"P:972:0,v6814"
+22:59:31.410546 table@build created L1@631 N·157 S·2MiB "P:973:0,v6821":"SC:1110,v7782"
+22:59:31.429092 table@build created L1@632 N·138 S·2MiB "SC:1111,v7789":"SC:1235,v8657"
+22:59:31.448553 table@build created L1@633 N·131 S·2MiB "SC:1236,v8664":"SC:1353,v9483"
+22:59:31.460665 table@build created L1@634 N·126 S·2MiB "SC:1354,v9490":"SC:1467,v10281"
+22:59:31.476955 table@build created L1@635 N·123 S·2MiB "SC:1468,v10288":"SC:1578,v11058"
+22:59:31.488651 table@build created L1@636 N·121 S·2MiB "SC:1579,v11065":"SC:1687,v11821"
+22:59:31.503593 table@build created L1@637 N·120 S·2MiB "SC:1688,v11828":"SC:1795,v12578"
+22:59:31.518651 table@build created L1@638 N·799 S·2MiB "SC:1796,v12585":"SC:882,v6186"
+22:59:31.532562 table@build created L1@639 N·130 S·1MiB "SC:883,v6193":"blo..ore,v12705"
+22:59:31.532656 version@stat F·[0 29] S·57MiB[0B 57MiB] Sc·[0.00 0.58]
+22:59:31.538616 table@compaction committed F-3 S-16B Ke·0 D·80 T·532.546834ms
+22:59:31.539011 table@remove removed @610
+22:59:31.539115 table@remove removed @608
+22:59:31.539228 table@remove removed @606
+22:59:31.539388 table@remove removed @574
+22:59:31.539700 table@remove removed @575
+22:59:31.539953 table@remove removed @576
+22:59:31.540139 table@remove removed @577
+22:59:31.540330 table@remove removed @578
+22:59:31.540471 table@remove removed @579
+22:59:31.540582 table@remove removed @580
+22:59:31.540720 table@remove removed @581
+22:59:31.540835 table@remove removed @582
+22:59:31.540954 table@remove removed @583
+22:59:31.541060 table@remove removed @584
+22:59:31.541191 table@remove removed @585
+22:59:31.541333 table@remove removed @586
+22:59:31.541476 table@remove removed @587
+22:59:31.541655 table@remove removed @588
+22:59:31.541790 table@remove removed @589
+22:59:31.541919 table@remove removed @590
+22:59:31.542031 table@remove removed @591
+22:59:31.542154 table@remove removed @592
+22:59:31.542280 table@remove removed @593
+22:59:31.542399 table@remove removed @594
+22:59:31.542504 table@remove removed @595
+22:59:31.542629 table@remove removed @596
+22:59:31.542759 table@remove removed @597
+22:59:31.542883 table@remove removed @598
+22:59:31.542983 table@remove removed @599
+22:59:31.543111 table@remove removed @600
+22:59:31.543205 table@remove removed @601
+22:59:32.231259 memdb@flush N·70 S·808KiB
+22:59:32.243585 memdb@flush created L0@641 N·70 S·613KiB ",v12776":"blo..ore,v12712"
+22:59:32.243844 version@stat F·[1 29] S·58MiB[613KiB 57MiB] Sc·[0.25 0.58]
+22:59:32.251557 memdb@flush committed F·1 T·20.270876ms
+22:59:32.252074 journal@remove removed @609
+22:59:33.091846 memdb@flush N·76 S·803KiB
+22:59:33.100511 memdb@flush created L0@643 N·76 S·612KiB ",v12853":"blo..ore,v12782"
+22:59:33.100543 version@stat F·[2 29] S·58MiB[1MiB 57MiB] Sc·[0.50 0.58]
+22:59:33.104593 memdb@flush committed F·1 T·12.713958ms
+22:59:33.104977 journal@remove removed @640
+22:59:34.050881 memdb@flush N·76 S·801KiB
+22:59:34.067536 memdb@flush created L0@645 N·76 S·611KiB ",v12930":"blo..ore,v12859"
+22:59:34.067583 version@stat F·[3 29] S·59MiB[1MiB 57MiB] Sc·[0.75 0.58]
+22:59:34.074523 memdb@flush committed F·1 T·23.441625ms
+22:59:34.075063 journal@remove removed @642
+22:59:35.505731 memdb@flush N·71 S·798KiB
+22:59:35.517508 memdb@flush created L0@647 N·71 S·612KiB ",v13000":"blo..ore,v12936"
+22:59:35.517543 version@stat F·[4 29] S·60MiB[2MiB 57MiB] Sc·[1.00 0.58]
+22:59:35.521652 memdb@flush committed F·1 T·15.878459ms
+22:59:35.522341 journal@remove removed @644
+22:59:35.522400 table@compaction L0·4 -> L1·29 S·60MiB Q·13007
+22:59:35.539637 table@build created L1@648 N·1999 S·2MiB ",v13000":"C:1124,v7886"
+22:59:35.554560 table@build created L1@649 N·137 S·2MiB "C:1125,v7893":"C:1248,v8754"
+22:59:35.590558 table@build created L1@650 N·130 S·2MiB "C:1249,v8761":"C:1365,v9573"
+22:59:35.600502 table@build created L1@651 N·126 S·2MiB "C:1366,v9580":"C:1479,v10371"
+22:59:35.611672 table@build created L1@652 N·124 S·2MiB "C:148,v1040":"C:1590,v11148"
+22:59:35.622610 table@build created L1@653 N·120 S·2MiB "C:1591,v11155":"C:1699,v11911"
+22:59:35.640570 table@build created L1@654 N·121 S·2MiB "C:17,v123":"C:1807,v12668"
+22:59:35.657594 table@build created L1@655 N·471 S·2MiB "C:1808,v12675":"C:562,v3951"
+22:59:35.675561 table@build created L1@656 N·271 S·2MiB "C:563,v3958":"C:806,v5660"
+22:59:35.686996 table@build created L1@657 N·191 S·2MiB "C:807,v5667":"C:979,v6871"
+22:59:35.699534 table@build created L1@658 N·1969 S·2MiB "C:98,v690":"P:1082:0,v7584"
+22:59:35.724572 table@build created L1@659 N·136 S·2MiB "P:1083:0,v7591":"P:1204:0,v8438"
+22:59:35.736683 table@build created L1@660 N·129 S·2MiB "P:1205:0,v8445":"P:1320:0,v9250"
+22:59:35.755521 table@build created L1@661 N·122 S·2MiB "P:1321:0,v9257":"P:1430:0,v10020"
+22:59:35.766490 table@build created L1@662 N·119 S·2MiB "P:1431:0,v10027":"P:1538:0,v10776"
+22:59:35.777483 table@build created L1@663 N·119 S·2MiB "P:1539:0,v10783":"P:1645:0,v11525"
+22:59:35.789590 table@build created L1@664 N·117 S·2MiB "P:1646:0,v11532":"P:1750:0,v12260"
+22:59:35.804610 table@build created L1@665 N·111 S·2MiB "P:1751:0,v12267":"P:1850:0,v12961"
+22:59:35.828555 table@build created L1@666 N·509 S·2MiB "P:1851:0,v12968":"P:637:0,v4468"
+22:59:35.847453 table@build created L1@667 N·227 S·2MiB "P:638:0,v4475":"P:841:0,v5897"
+22:59:35.859566 table@build created L1@668 N·182 S·2MiB "P:842:0,v5904":"SC:1002,v7026"
+22:59:35.876563 table@build created L1@669 N·147 S·2MiB "SC:1003,v7033":"SC:1135,v7957"
+22:59:35.899553 table@build created L1@670 N·137 S·2MiB "SC:1136,v7964":"SC:1259,v8825"
+22:59:35.916572 table@build created L1@671 N·130 S·2MiB "SC:126,v880":"SC:1376,v9644"
+22:59:35.926560 table@build created L1@672 N·125 S·2MiB "SC:1377,v9651":"SC:1489,v10435"
+22:59:35.938463 table@build created L1@673 N·125 S·2MiB "SC:149,v1041":"SC:1600,v11212"
+22:59:35.952515 table@build created L1@674 N·120 S·2MiB "SC:1601,v11219":"SC:1709,v11975"
+22:59:35.965564 table@build created L1@675 N·120 S·2MiB "SC:171,v1195":"SC:1817,v12732"
+22:59:35.993527 table@build created L1@676 N·781 S·2MiB "SC:1818,v12739":"SC:850,v5962"
+22:59:36.010601 table@build created L1@677 N·165 S·1MiB "SC:851,v5969":"blo..ore,v12999"
+22:59:36.010701 version@stat F·[0 30] S·60MiB[0B 60MiB] Sc·[0.00 0.60]
+22:59:36.015576 table@compaction committed F-3 S-411B Ke·0 D·84 T·493.153291ms
+22:59:36.015868 table@remove removed @647
+22:59:36.015991 table@remove removed @645
+22:59:36.016068 table@remove removed @643
+22:59:36.016205 table@remove removed @641
+22:59:36.016370 table@remove removed @611
+22:59:36.016504 table@remove removed @612
+22:59:36.016652 table@remove removed @613
+22:59:36.016783 table@remove removed @614
+22:59:36.016910 table@remove removed @615
+22:59:36.017027 table@remove removed @616
+22:59:36.017192 table@remove removed @617
+22:59:36.017369 table@remove removed @618
+22:59:36.017544 table@remove removed @619
+22:59:36.017691 table@remove removed @620
+22:59:36.017856 table@remove removed @621
+22:59:36.018020 table@remove removed @622
+22:59:36.018168 table@remove removed @623
+22:59:36.018332 table@remove removed @624
+22:59:36.018483 table@remove removed @625
+22:59:36.018642 table@remove removed @626
+22:59:36.018790 table@remove removed @627
+22:59:36.018933 table@remove removed @628
+22:59:36.019078 table@remove removed @629
+22:59:36.019240 table@remove removed @630
+22:59:36.019407 table@remove removed @631
+22:59:36.019589 table@remove removed @632
+22:59:36.019742 table@remove removed @633
+22:59:36.019899 table@remove removed @634
+22:59:36.020050 table@remove removed @635
+22:59:36.020240 table@remove removed @636
+22:59:36.020390 table@remove removed @637
+22:59:36.020555 table@remove removed @638
+22:59:36.020693 table@remove removed @639
+22:59:36.336180 memdb@flush N·69 S·803KiB
+22:59:36.345665 memdb@flush created L0@679 N·69 S·599KiB ",v13070":"blo..ore,v13006"
+22:59:36.346116 version@stat F·[1 30] S·60MiB[599KiB 60MiB] Sc·[0.25 0.60]
+22:59:36.354082 memdb@flush committed F·1 T·17.861209ms
+22:59:36.354467 journal@remove removed @646
+=============== May 14, 2024 (IST) ===============
+23:06:44.421054 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:44.421804 version@stat F·[1 30] S·60MiB[599KiB 60MiB] Sc·[0.25 0.60]
+23:06:44.421821 db@open opening
+23:06:44.421909 journal@recovery F·1
+23:06:44.421967 journal@recovery recovering @678
+23:06:44.429127 memdb@flush created L0@680 N·47 S·436KiB ",v13119":"blo..ore,v13076"
+23:06:44.429319 version@stat F·[2 30] S·61MiB[1MiB 60MiB] Sc·[0.50 0.60]
+23:06:44.453839 db@janitor F·35 G·1
+23:06:44.453849 db@janitor removing table-602
+23:06:44.454215 db@open done T·32.387375ms
+23:06:51.253584 memdb@flush N·67 S·814KiB
+23:06:51.267059 memdb@flush created L0@684 N·67 S·611KiB ",v13183":"blo..ore,v13126"
+23:06:51.267144 version@stat F·[3 30] S·61MiB[1MiB 60MiB] Sc·[0.75 0.60]
+23:06:51.270018 memdb@flush committed F·1 T·16.275666ms
+23:06:51.270530 journal@remove removed @681
+=============== May 14, 2024 (IST) ===============
+23:06:56.157378 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:56.157682 version@stat F·[3 30] S·61MiB[1MiB 60MiB] Sc·[0.75 0.60]
+23:06:56.157699 db@open opening
+23:06:56.157780 journal@recovery F·1
+23:06:56.157817 journal@recovery recovering @683
+23:06:56.162284 memdb@flush created L0@685 N·17 S·147KiB ",v13204":"blo..ore,v13189"
+23:06:56.162426 version@stat F·[4 30] S·61MiB[1MiB 60MiB] Sc·[1.00 0.60]
+23:06:56.180624 db@janitor F·36 G·0
+23:06:56.180642 db@open done T·22.936209ms
+23:06:56.181473 table@compaction L0·4 -> L1·30 S·61MiB Q·13205
+23:06:56.221158 table@build created L1@688 N·2027 S·2MiB ",v13204":"C:1124,v7886"
+23:06:56.250169 table@build created L1@689 N·137 S·2MiB "C:1125,v7893":"C:1248,v8754"
+23:06:56.262148 table@build created L1@690 N·130 S·2MiB "C:1249,v8761":"C:1365,v9573"
+23:06:56.273168 table@build created L1@691 N·126 S·2MiB "C:1366,v9580":"C:1479,v10371"
+23:06:56.284240 table@build created L1@692 N·124 S·2MiB "C:148,v1040":"C:1590,v11148"
+23:06:56.296140 table@build created L1@693 N·120 S·2MiB "C:1591,v11155":"C:1699,v11911"
+23:06:56.310448 table@build created L1@694 N·121 S·2MiB "C:17,v123":"C:1807,v12668"
+23:06:56.325203 table@build created L1@695 N·357 S·2MiB "C:1808,v12675":"C:433,v3043"
+23:06:56.338206 table@build created L1@696 N·355 S·2MiB "C:434,v3050":"C:753,v5288"
+23:06:56.349247 table@build created L1@697 N·202 S·2MiB "C:754,v5295":"C:935,v6563"
+23:06:56.364185 table@build created L1@698 N·2006 S·2MiB "C:936,v6570":"P:1047:0,v7339"
+23:06:56.376020 table@build created L1@699 N·137 S·2MiB "P:1048:0,v7346":"P:1170:0,v8200"
+23:06:56.388212 table@build created L1@700 N·130 S·2MiB "P:1171:0,v8207":"P:1288:0,v9026"
+23:06:56.399221 table@build created L1@701 N·123 S·2MiB "P:1289:0,v9033":"P:1399:0,v9803"
+23:06:56.413090 table@build created L1@702 N·121 S·2MiB "P:139:0,v969":"P:1507:0,v10559"
+23:06:56.425084 table@build created L1@703 N·119 S·2MiB "P:1508:0,v10566":"P:1614:0,v11308"
+23:06:56.437241 table@build created L1@704 N·118 S·2MiB "P:1615:0,v11315":"P:1720:0,v12050"
+23:06:56.447303 table@build created L1@705 N·112 S·2MiB "P:1721:0,v12057":"P:1821:0,v12758"
+23:06:56.460234 table@build created L1@706 N·322 S·2MiB "P:1822:0,v12765":"P:414:0,v2901"
+23:06:56.473104 table@build created L1@707 N·346 S·2MiB "P:415:0,v2908":"P:726:0,v5091"
+23:06:56.486116 table@build created L1@708 N·200 S·2MiB "P:727:0,v5098":"P:906:0,v6352"
+23:06:56.495626 table@build created L1@709 N·170 S·2MiB "P:907:0,v6359":"SC:1057,v7411"
+23:06:56.507186 table@build created L1@710 N·140 S·2MiB "SC:1058,v7418":"SC:1183,v8293"
+23:06:56.519219 table@build created L1@711 N·135 S·2MiB "SC:1184,v8300":"SC:1304,v9140"
+23:06:56.531163 table@build created L1@712 N·127 S·2MiB "SC:1305,v9147":"SC:1419,v9945"
+23:06:56.543209 table@build created L1@713 N·125 S·2MiB "SC:142,v992":"SC:1531,v10729"
+23:06:56.555113 table@build created L1@714 N·122 S·2MiB "SC:1532,v10736":"SC:1641,v11499"
+23:06:56.573126 table@build created L1@715 N·121 S·2MiB "SC:1642,v11506":"SC:1750,v12262"
+23:06:56.588373 table@build created L1@716 N·119 S·2MiB "SC:1751,v12269":"SC:1858,v13019"
+23:06:56.602218 table@build created L1@717 N·787 S·2MiB "SC:1859,v13026":"SC:870,v6102"
+23:06:56.611191 table@build created L1@718 N·143 S·1MiB "SC:871,v6109":"blo..ore,v13203"
+23:06:56.611714 version@stat F·[0 31] S·61MiB[0B 61MiB] Sc·[0.00 0.62]
+23:06:56.616293 table@compaction committed F-3 S-823B Ke·0 D·58 T·434.412333ms
+23:06:56.616999 table@remove removed @684
+23:06:56.617128 table@remove removed @680
+23:06:56.617200 table@remove removed @679
+23:06:56.617351 table@remove removed @648
+23:06:56.617489 table@remove removed @649
+23:06:56.618075 table@remove removed @650
+23:06:56.618484 table@remove removed @651
+23:06:56.618742 table@remove removed @652
+23:06:56.619082 table@remove removed @653
+23:06:56.619444 table@remove removed @654
+23:06:56.620326 table@remove removed @655
+23:06:56.620467 table@remove removed @656
+23:06:56.620594 table@remove removed @657
+23:06:56.620708 table@remove removed @658
+23:06:56.621406 table@remove removed @659
+23:06:56.621829 table@remove removed @660
+23:06:56.622045 table@remove removed @661
+23:06:56.622728 table@remove removed @662
+23:06:56.623086 table@remove removed @663
+23:06:56.623289 table@remove removed @664
+23:06:56.623409 table@remove removed @665
+23:06:56.623723 table@remove removed @666
+23:06:56.624072 table@remove removed @667
+23:06:56.624549 table@remove removed @668
+23:06:56.624658 table@remove removed @669
+23:06:56.624875 table@remove removed @670
+23:06:56.625193 table@remove removed @671
+23:06:56.625915 table@remove removed @672
+23:06:56.626022 table@remove removed @673
+23:06:56.626148 table@remove removed @674
+23:06:56.626769 table@remove removed @675
+23:06:56.627293 table@remove removed @676
+23:06:56.627391 table@remove removed @677
+=============== May 14, 2024 (IST) ===============
+23:08:14.720673 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:08:14.721252 version@stat F·[0 31] S·61MiB[0B 61MiB] Sc·[0.00 0.62]
+23:08:14.721269 db@open opening
+23:08:14.721347 journal@recovery F·1
+23:08:14.721472 journal@recovery recovering @686
+23:08:14.730229 memdb@flush created L0@719 N·56 S·510KiB ",v13261":"blo..ore,v13211"
+23:08:14.730408 version@stat F·[1 31] S·62MiB[510KiB 61MiB] Sc·[0.25 0.62]
+23:08:14.748629 db@janitor F·35 G·1
+23:08:14.748640 db@janitor removing table-685
+23:08:14.749295 db@open done T·28.018166ms
+=============== May 14, 2024 (IST) ===============
+23:08:54.297646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:08:54.298232 version@stat F·[1 31] S·62MiB[510KiB 61MiB] Sc·[0.25 0.62]
+23:08:54.298250 db@open opening
+23:08:54.298333 journal@recovery F·1
+23:08:54.298386 journal@recovery recovering @720
+23:08:54.298538 version@stat F·[1 31] S·62MiB[510KiB 61MiB] Sc·[0.25 0.62]
+23:08:54.314147 db@janitor F·34 G·0
+23:08:54.314165 db@open done T·15.906959ms
+=============== May 14, 2024 (IST) ===============
+23:42:11.509522 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:42:11.510138 version@stat F·[1 31] S·62MiB[510KiB 61MiB] Sc·[0.25 0.62]
+23:42:11.510163 db@open opening
+23:42:11.510256 journal@recovery F·1
+23:42:11.510311 journal@recovery recovering @722
+23:42:11.516207 memdb@flush created L0@724 N·14 S·40KiB ",v13276":"blo..ore,v13268"
+23:42:11.516357 version@stat F·[2 31] S·62MiB[550KiB 61MiB] Sc·[0.50 0.62]
+23:42:11.532975 db@janitor F·35 G·0
+23:42:11.532993 db@open done T·22.822792ms
