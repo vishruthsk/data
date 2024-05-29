@@ -804,3 +804,22 @@
 09:36:37.672733 version@stat F·[0 5] S·8MiB[0B 8MiB] Sc·[0.00 0.09]
 09:36:37.689330 db@janitor F·7 G·0
 09:36:37.689348 db@open done T·16.883583ms
+=============== May 29, 2024 (IST) ===============
+12:30:07.739933 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:30:07.740340 version@stat F·[0 5] S·8MiB[0B 8MiB] Sc·[0.00 0.09]
+12:30:07.740359 db@open opening
+12:30:07.740413 journal@recovery F·1
+12:30:07.740455 journal@recovery recovering @233
+12:30:07.740735 version@stat F·[0 5] S·8MiB[0B 8MiB] Sc·[0.00 0.09]
+12:30:07.758470 db@janitor F·7 G·0
+12:30:07.758487 db@open done T·18.121375ms
+=============== May 29, 2024 (IST) ===============
+12:31:34.658912 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:31:34.659465 version@stat F·[0 5] S·8MiB[0B 8MiB] Sc·[0.00 0.09]
+12:31:34.659487 db@open opening
+12:31:34.659541 journal@recovery F·1
+12:31:34.659581 journal@recovery recovering @235
+12:31:34.662815 memdb@flush created L0@237 N·9 S·1KiB "5\x86\xa3..\xc8t\x93,v54739":"tx.../=2,v54743"
+12:31:34.662940 version@stat F·[1 5] S·8MiB[1KiB 8MiB] Sc·[0.25 0.09]
+12:31:34.680334 db@janitor F·8 G·0
+12:31:34.680372 db@open done T·20.876083ms
